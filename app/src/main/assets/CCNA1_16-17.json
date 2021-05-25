@@ -1,0 +1,409 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Aký komponent je navrhnutý na ochranu pred neoprávnenou komunikáciou do a z počítača ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Firewall",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Antivírus",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Antimalwér",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rodičovská ochrana",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Pri akom útoku môže útočník použiť nástroje ako nslookup a fping ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prieskumný útok",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Červ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Trójsky kôň",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Brute - force útok",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Pri akom útoku útočník tajne vysiela a mení komunikáciu medzi dvoma stranami, ktoré sa domnievajú, že navzájom priamo komunikujú ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Man-in-the-middle útok",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Brute – force útok",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Červ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Trójsky kôň",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký je účel funkcie sieťovej autentifikácie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na preukázanie totožnosti používateľa.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pre zistenie k akým dátam môžeme mať prístup.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Neplní žiadny účel.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na sledovanie používateľa.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akým príkazom vieme na smerovači znížiť počet brute – force útokov na heslo ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Login block-for 120 attempts 3 within 60",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Crypto key generate rsa",
+          "Correct": false
+        },
+        {
+          "AnswerText": "No shutdown",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Exec-timeout 30",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Prečo je lepšie použiť  SSH  ako Telnet ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pretože SSH používa bezpečnú komunikáciu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pretože SSH sa ľahšie používa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pretože SSH lepšie šifruje komunikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pretože SSH je rýchlejší.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre firewall ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Nachádzajú sa medzi dvoma alebo viacerými sieťami, riadia prenos medzi nimi a pomáhajú zabrániť neoprávnenému prístupu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to spôsob kontroly toho, kto má povolenie na prístup do siete, aké činnosti vykonáva pri prístupe do siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Skenuje koncové zariadenie a upozorní používateľa ak je infikované Trójskym koňom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šifruje prijaté správy z vonkajšej siete.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako charakterizujeme koncové zariadenie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to koncový bod, napríklad notebook, stolný počítač, server.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Šifruje prijaté správy z vonkajšej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nachádza sa medzi dvoma alebo viacerými sieťami, riadia prenos medzi nimi a pomáhajú zabrániť neoprávnenému prístupu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Sú to všetky smerovače a prepínače v sieti.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Vďaka ktorej vlastnosti je SSH viac zabezpečené ako Telnet ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prihlasovacie údaje a šifrovanie údajov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Potreba silného hesla.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "SHH nie je viac zabezpečené.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Náhodné jednorazové pripojenie k portu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak ma sieť vysokú prioritu prenosu aplikácii v reálnom čase, akým 2 typom sieťových služieb sa snaží vyhovieť ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Voice, video",
+          "Correct": true
+        },
+        {
+          "AnswerText": "FTP, video",
+          "Correct": false
+        },
+        {
+          "AnswerText": "HTTP, IMAP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "SNMP, voice",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký príkaz slúži na vyhľadanie informácií o IP adrese, názve hostiteľa a verzii IOS susedných zariadení ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Show cdp neighbors detail",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Show interfaces",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show ip route",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show ping",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre Vírus ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to typ škodlivého softvéru, šíri sa vložením svojej kópie do iného programu pričom sa stane jeho súčasťou.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na svoje šírenie nevyžadujú hostiteľský program ani ľudskú pomoc.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to typ softvéru, ktorý vyzerá legitímne, neinfikujú iné súbory, šíria sa otvorením prílohy emailu alebo stiahnutím a spustením súboru.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je typ softvéru, ktorý sa  vyskytuje v emailovej schránke ako nevyžiadaná pošta.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Na čo nám slúži filtrovanie URL adries ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zabraňuje alebo povoľuje prístup na webové stránky na základe konkrétnych adries URL alebo kľúčových slov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zabraňuje alebo povoľuje prístup na základe IP alebo MAC adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zabraňuje alebo umožňuje prístup konkrétnym typom aplikácií na základe čísel portov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prichádzajúce pakety musia byť legitímnymi odpoveďami na požiadavky od interných hostiteľov, nevyžiadané pakety sú blokované.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ako funguje filtrovanie paketov ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zabraňuje alebo povoľuje prístup na základe IP alebo MAC adries.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Umožňuje prístup konkrétnym typom aplikácií na základe čísel portov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Povoľuje prístup na webové stránky na základe konkrétnych adries URL alebo kľúčových slov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prichádzajúce pakety musia byť legitímnymi odpoveďami na požiadavky od interných hostiteľov, nevyžiadané pakety sú blokované.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre filtrovanie aplikácii ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zabraňuje alebo umožňuje prístup konkrétnym typom aplikácií na základe čísel portov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zabraňuje alebo povoľuje prístup aplikácií na základe IP alebo MAC adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zabraňuje alebo povoľuje prístup k aplikáciám na základe konkrétnych adries URL alebo kľúčových slov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prichádzajúce pakety aplikácii musia byť legitímnymi odpoveďami na požiadavky od interných hostiteľov, nevyžiadané pakety sú blokované.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení platí pre stavovú kontrolu paketov ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prichádzajúce pakety musia byť legitímnymi odpoveďami na požiadavky od interných hostiteľov, nevyžiadané pakety sú blokované.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Povoľuje prístup na webové stránky na základe konkrétnych adries URL alebo kľúčových slov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Umožňuje prístup konkrétnym typom aplikácií na základe čísel portov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zabraňuje alebo povoľuje prístup na základe IP alebo MAC adries.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži príkaz exec – timeout ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na deaktivovanie neaktívneho privilegovaného prístupu v režime EXEC.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na zníženie počtu brute – force útokov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na nastavenie času, ktorý môže používateľ v danom režime ostať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na automatické odhlásenie používateľa z režimu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení platí pre VoIP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je zvyčajne lacnejší ako IP telefónia, ale za cenu kvality a funkcií.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je zvyčajne drahší ako IP telefónia, ale je kvalitnejší.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Využíva dedikované servery na riadenie a signalizáciu hovorov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to zoznam zariadení, ktoré používajú alebo tvoria sieť.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení platí pre IP telefóniu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Využíva dedikované servery na riadenie a signalizáciu hovorov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je zvyčajne drahšia ako VoIP, ale menej kvalitná.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to zoznam zariadení, ktoré používajú alebo tvoria sieť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je zvyčajne lacnejšia ako VoIP, ale za cenu kvality a funkcií.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená identifikátor portu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to názov lokálneho a vzdialeného portu vo forme reťazca znakov ASCII, napríklad FastEthernet 1/1",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to konfigurovaný názov lokálneho portu prepínača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zvyčajne to je lokálna MAC adresa portu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Názov portu, ktorý je v hexadecimálnej forme.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Na čo slúži DHCP  ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dynamicky priraďuje IPv4 adresy a ďalšie informácie o konfigurácii siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na prepojenie medzi prepínačmi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje bezslučkovú topológiu v sieti s redundantnými spojeniami.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Na čo slúži DHCP správa DISCOVER ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to požiadavka klienta o pridelenie IP nastavení do lokálnej siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to odpoveď servera na požiadavku klienta, kde ponúka IP nastavenia klientovi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posiela nastavovací paket IP nastavení a je identický s DHCP OFFER.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Klient buď potvrdí alebo odmietne IP nastavenia.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Na čo slúži DHCP správa OFFER ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to odpoveď servera na požiadavku klienta, kde ponúka IP nastavenia klientovi.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to požiadavka klienta o pridelenie IP nastavení do lokálnej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posiela nastavovací paket IP nastavení a je identický s DHCP OFFER.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Klient buď potvrdí alebo odmietne IP nastavenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži DHCP správa ACKNOWLEDGE ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Posiela nastavovací paket IP nastavení a je identický s DHCP OFFER.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to odpoveď servera na požiadavku klienta, kde ponúka IP nastavenia klientovi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to požiadavka klienta o pridelenie IP nastavení do lokálnej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Klient buď potvrdí alebo odmietne IP nastavenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akým príkazom sa definuje predvolená brána ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Ip default-gateway",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ip address",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ip dhcp excluded – address",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Network",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akým príkazom definujeme rozsah siete ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Network",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ip default-gateway",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ip address",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ip dhcp excluded – address",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži príkaz ip dhcp excluded – address ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vylučuje jednu alebo rozsah adries.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Umožňuje konfiguráciu DHCPv4 parametrov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nastavuje sa ním predvolená brána.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Definuje rozsah siete.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúžia protokoly typu FHRP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zabezpečujú alternatívne predvolené brány v prepínaných sieťach, kde je 2 a viac smerovačov pripojených na rovnakých VLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Určujú, ktorý router by mal byť blokovaný pri preposielaní komunikácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Mapuje viac VLAN do rovnakej inštancie STP.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý protokol určuje, kedy by mal standby smerovač prevziať rolu aktívneho routra ?",
+      "AnswerList": [
+        {
+          "AnswerText": "FHRP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "TTL",
+          "Correct": false
+        },
+        {
+          "AnswerText": "PVST+",
+          "Correct": false
+        },
+        {
+          "AnswerText": "DTP",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre protokol HSRP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožňuje redudanciu brány tým, že smerovače patriace do jednej skupiny zdieľajú virtuálnu IP a MAC adresu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomocou softvérového vypnutia linky kontroluje prístup a autentifikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsobí, že rozhranie automaticky prechádza do stavu Forwarding, po zapojení kábla sa dáta hneď prenášajú.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak HSRP určí standby smerovač, na čo tento smerovač slúži ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prevezme úlohu aktívneho smerovač ak zlyhá, monitoruje prevádzku HSRP skupiny.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Smeruje pakety.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na kontrolu odosielaných paketov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Plní funkciu šifrovania komunikácie.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ak HSRP určí aktívny smerovač, na čo tento smerovač slúži ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Smeruje pakety.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Prevezme úlohu aktívneho smerovač ak zlyhá, monitoruje prevádzku HSRP skupiny.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Plní funkciu šifrovania komunikácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na kontrolu odosielaných paketov.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Definujte pojem preempcia.",
+      "AnswerList": [
+        {
+          "AnswerText": "Zabezpečí, že smerovač bude bojovať o rolu aktívneho smerovača.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Určuje, ktorý smerovač prevezme na seba rolu aktívneho smerovača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zabezpečí, že smerovač sa stane okamžite aktívnym smerovačom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Určuje, ktorý smerovač prevezme na seba rolu standby smerovača.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Na čo slúži mechanizmus SLAAC ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na dynamické priradenie IPv6 adries.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na prideľovanie IPv4 adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na zabezpečenie spoľahlivého poskytovania obsahu pre všetkých používateľov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na presmerovanie paketov, na ukladanie informácií o preposielaní.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akou správou odpovedá smerovač ak prijme správu RS ?",
+      "AnswerList": [
+        {
+          "AnswerText": "RS správou",
+          "Correct": true
+        },
+        {
+          "AnswerText": "RA správou",
+          "Correct": false
+        },
+        {
+          "AnswerText": "ADVERTISE správa",
+          "Correct": false
+        },
+        {
+          "AnswerText": "REPLY správa",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý protokol automatizuje prideľovanie IP adries v sieti ?",
+      "AnswerList": [
+        {
+          "AnswerText": "DHCP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "DNS",
+          "Correct": false
+        },
+        {
+          "AnswerText": "RSTP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "SNB",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý príkaz umožňuje rozhraniu automaticky získavať adresu IPv4 od ISP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "ip address dhcp",
+          "Correct": true
+        },
+        {
+          "AnswerText": "ip dhcp pool",
+          "Correct": false
+        },
+        {
+          "AnswerText": "ip dhcp excluded – address",
+          "Correct": false
+        },
+        {
+          "AnswerText": "show ip dhcp excluded – address",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aká implementácia FHRP je protokolom, ktorá podporuje zdieľanie zaťaženia IPv4 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "GLBP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "IRDP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VRRPv3",
+          "Correct": false
+        },
+        {
+          "AnswerText": "HTTPS",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý príkaz umožňuje správcovi siete skontrolovať IP adresu, priradenú konkrétnej MAC adrese ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Show ip dhcp binding",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Domain-name",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ipv6 unicast – routing",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show ip dhcp pool",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aká implementácia FHRP je protokolom, ktorý podporuje vyváženie záťaže IPv6 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "GLBP pre IPv6",
+          "Correct": true
+        },
+        {
+          "AnswerText": "GLBP ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "IRDP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VRRPv3",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aká implementácia FHRP je nechránený protokol, ktorý sa spolieha na to, že ICMP poskytne redundanciu IPv4 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "IRDP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "GLBP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "GLBP pre IPv6",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VRRPv3",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Koľko bitov obsahuje IPv4 adresa?",
+      "AnswerList": [
+        {
+          "AnswerText": "32 bitov",
+          "Correct": true
+        },
+        {
+          "AnswerText": "64 bitov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "12 bitov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "128 bitov",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Na koľko bitové oktety je rozdelená IPv4 adresa ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na štyri 8 – bitové oktety.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na štyri 6 – bitové oktety.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dva 16 – bitové oktety.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na štyri 4 – bitové oktety.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Z akých častí pozostáva IPv4 adresa ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zo sieťovej časti a hostovej (adresnej) časti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Len zo sieťovej časti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Z adresnej a prijímacej časti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Len z adresnej časti.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo naznačuje jednotka v maske podsiete ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Že príslušný bit v IPv4 adrese je sieťový bit.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Že žiadny bit v IPv4 adrese nie je sieťový bit.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Že adresa obsahuje menej oktetov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Že príslušný bit v IPv4 adrese nie je sieťový bit.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži predvolená brána ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to IP adresa rozhrania lokálneho smerovača, smeruje pakety mimo lokálnej siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to IP adresa rozhrania susedného smerovača, smeruje pakety z vonkajšej siete do lokálnej.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to IP adresa rozhrania lokálneho smerovača, smeruje pakety priamo v lokálnej sieti medzi zariadeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomáha zariadeniam identifikovať, ktorá časť je sieťová a ktorá je adresná.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čomu sa rovná dĺžka prefixu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Počtu bitov v maske podsiete, ktoré tvoria sieťovú časť IP adresy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Počtu bitov v maske podsiete, ktoré tvoria adresnú časť IP adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Počtu bitov celej IP adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Počtu bitov, ktoré sa nachádzajú v druhom oktete IP adresy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako sa zapisuje prefix ?",
+      "AnswerList": [
+        {
+          "AnswerText": "  Zapisuje sa pomocou  znaku „ / “.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zapisuje sa pomocou znaku „ : “.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zapisuje sa pomocou znaku „ ; “.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zapisuje sa pomocou znaku „ | ”.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako sa skrátene dá vyjadriť sieťová maska ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pomocou prefixu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ak vydelíme bity dvomi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomocou predvolenej brány.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomocou MAC adresy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké typy komunikácie v IPv6 poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Unicast, Multicast, Anycast",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Unicast, Multicast, Nocast",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Multicast, Anycast, Polocast",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Unicast, Multicast",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký typ komunikácie je použitý v IPv6 ak sú dáta smerované len jednému zariadeniu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Unicast",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Anycast",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Multicast",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nocast",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké adresy sa používajú na koncovom zariadení, pri overení funkčnosti konfigurácii TCP/IP protokolu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Loopback adresy",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Sieťové adresy",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koncové adresy",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Link-local adresy",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Na čo slúži link-local adresa (IPv6) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na komunikáciu s inými zariadeniami na rovnakej lokálnej linke, sú z rozsahu FE80::/10.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na smerovanie globálnych jedinečných adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na lokálnu adresáciu v rámci lokality ale medzi obmedzeným počtom lokalít.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na koncovom zariadení na overenie, či je funkčná konfigurácia TCP/IP protokolu.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Z akého dôvodu sa prestalo používať triedne adresovanie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pretože sa zbytočne míňali a vyčerpávali dostupné IPv4 adresy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pretože sa IPv4 adresy prideľovali v ľubovoľnej hranici adresného bitu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Triedne adresovanie sa neprestalo používať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Triedne adresovanie sa nikdy nepoužívalo.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Akou formou sú reprezentované bity v IPv6 adrese ?",
+      "AnswerList": [
+        {
+          "AnswerText": "V hexadecimálnej forme.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "V binárnej forme.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "V číselnej forme.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "V desiatkovej sústave.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akú dĺžku v bitoch ma IPv6 adresa ?",
+      "AnswerList": [
+        {
+          "AnswerText": "128 bitov",
+          "Correct": true
+        },
+        {
+          "AnswerText": "64 bitov ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "126 bitov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "132 bitov",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži Dual – stack ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na podporu IPv4 a IPv6 adries, na zariadeniach tak môžeme paralelne spúšťať protokoly IPv4 a IPv6",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to spôsob preposielania IPv6 paketov cez IPv4 siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to preklad IPv4 adresy na IPv6 adresu a naopak pomocou NAT64.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na šifrovanie IPv6 adries.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo je to tunneling ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Spôsob preposielania IPv6 paketov cez IPv4 siete, IPv6 paket sa zabaľuje do vnútra IPv4 paketu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na podporu IPv4 a IPv6 adries, na zariadeniach tak môžeme paralelne spúštať protokoly IPv4 a IPv6.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to spôsob preposielania IPv6 paketov cez IPv4 siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na šifrovanie IPv6 adries.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo používajú cisco smerovače nástroj EUI-64 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na vygenerovanie ID rozhrania.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na šifrovanie správ.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na zabezpečenie linky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na odosielanie informácií.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži podsieťovanie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na zníženie celkovej prevádzky  v sieti a zlepšenie výkonnosti siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Neslúži nám na nič.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na zdokonalenie šifrovania v sieti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na generovanie ID rozhrania.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aká je základná charakteristika protokolu ICMP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Slúži na overenie dostupnosti služby alebo zariadenia v sieti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pomáha kontrolovať, či je daná IP adresa dosiahnuteľná alebo nie je.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Meria čas odozvy a oznamuje chyby.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posiela paket dát s krátkym časom prežitia (TTL).",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži Ping ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pomáha kontrolovať či je daná IP adresa dosiahnuteľná alebo nie, meria čas odozvy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúži na overenie dostupnosti služby alebo zariadenia v sieti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posiela paket dát s krátkym časom prežitia (TTL).",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na výpočet počtu použiteľných adries.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži Traceroute ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na sledovanie paketu, z počítača k hostovi a taktiež ukazuje počet krokov potrebných na dosiahnutie cieľa.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pomáha kontrolovať či je daná IP adresa dosiahnuteľná alebo nie, meria čas odozvy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na výpočet počtu použiteľných adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posiela paket dát s krátkym časom prežitia (TTL).",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre Router Solicitation (ICMPv6) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Správy sú posielané z koncových zariadení na to, aby našli IPv6 smerovače.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Správy posielajú smerovače koncovým zariadeniam, aby ich informovali ako získať IPv6 nastavenia a informácie o sieti (napr. prefix).",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Správy posiela zariadenie, aby zistilo link - layer adresu suseda.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Správy sú odoslané ako odpovede na Neighbor Solicitation správy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre Router Advertisement (ICMPv6) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Správy posielajú smerovače koncovým zariadeniam, aby ich informovali ako získať IPv6 nastavenia a informácie o sieti ( napr. prefix).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Správy sú posielané z koncových zariadení na to, aby našli IPv6 smerovače.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Správy posiela zariadenie, aby zistilo link – layer adresu suseda.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Správy sú odoslané ako odpovede na Neighbor Solicitation správy.",
+          "Correct": false
+        }
+      ]
+    }
+    ,    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre Neighbor Solicitation (ICMPv6) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Správy posiela zariadenie preto, aby zistilo link – layer adresu suseda.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Správy sú odoslané ako odpovede na Neighbor Solicitation správy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Správy sú posielané z koncových zariadení na to, aby našli IPv6 smerovače.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Správy posielajú smerovače koncovým zariadeniam, aby ich informovali ako získať IPv6 nastavenia a informácie o sieti ( napr. prefix).",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

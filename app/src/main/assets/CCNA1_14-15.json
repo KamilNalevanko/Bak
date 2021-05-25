@@ -1,0 +1,429 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Ktoré tvrdenie platí pre transportnú vrstvu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Poskytuje prepojenie medzi aplikačnou vrstvou a nižšími vrstvami, kt. sú zodpovedné za prenos v sieti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zaručuje, že aplikácia je pripravená prijímať údaje.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zabezpečuje, že každý segment, kt. zdroj odošle, príde na miesto určenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Čísluje a sleduje segmenty.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ktoré z tvrdení platí pre transportnú vrstvu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Sleduje jednotlivé konverzácie medzi zdrojovou a cieľovou aplikáciou (segmentácia), všetky aplikácie dostanú správne dáta cez čísla portov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zaručuje, že aplikácia je pripravená prijímať údaje.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zabezpečuje, že každý segment, kt. zdroj odošle, príde na miesto určenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Čísluje a sleduje segmenty.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Aké sú tri zodpovednosti TCP protokolu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Číslovanie a sledovanie segmentov, potvrdenie prijatých dát, opätovné preposielanie nepotvrdených dát.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Číslovanie a sledovanie segmentov, potvrdenie prijatých dát, opätovné preposielanie potvrdených dát.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Opätovné preposielanie potvrdených dát, potvrdenie neprijatých dát, číslovanie a sledovanie segmentov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Číslovanie a posielanie segmentov, potvrdenie neprijatých dát, opätovná kontrola segmentov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Kde vie protokol TCP nájsť svoje využitie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Tam, kde vyžadujeme, aby boli všetky dáta spoľahlivo doručené (napr. pri sťahovaní filmu).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Tam, kde potrebujeme aby boli dáta dokonale zašifrované.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Tam, kde potrebujeme aby boli stratené dáta znova poslané.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Tam, kde potrebujeme aby boli  poškodené pakety zahodené.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre UDP protokol ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dáta sú zložené v poradí v akom prichádzajú, má menej polí a je rýchlejší ako TCP.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Dáta nie sú zložené v poradí v akom prichádzajú, má menej polí, no nie je rýchlejší ako TCP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vytvára sa relácia, je spoľahlivý.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa pri potrebe väčšieho zaťaženia a malého oneskorenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre UDP protokol ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Používa sa pri potrebe menšieho zaťaženia a malého oneskorenia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Dáta nie sú zložené v poradí v akom prichádzajú, má menej polí, no nie je rýchlejší ako TCP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každý stratený segment je opätovne preposielaný.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa pri potrebe väčšieho zaťaženia a malého oneskorenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre UDP protokol ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Žiaden stratený segment nie je opätovne preposielaný, odosielateľ nie je informovaný o dostupnosti cieľa.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Dáta nie sú zložené v poradí v akom prichádzajú, má menej polí, no nie je rýchlejší ako TCP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každý stratený segment je opätovne preposielaný.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je spoľahlivý.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Kde nájdeme využitie pre UDP protokol ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Tam, kde je podstatnejšia rýchlosť prenosu ako spoľahlivé doručenie ( napr. streamovanie videa).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Tam, kde vyžadujeme, aby boli všetky dáta spoľahlivo doručené ( napr. pri sťahovaní filmu).",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pri šifrovaní segmentov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Protokol UDP už dnes nemá využitie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akú funkciu má cieľový port ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Hovorí cieľu, akú službu požadujeme.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Dynamicky sa generuje odosielajúcim zariadeniam.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži ako adresa pre návrat.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Umožňuje rozlíšiť viac procesov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Z koľkých krokov pozostáva nadviazanie TCP spojenia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Z troch krokov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zo štyroch krokov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Z dvoch krokov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Z jedného kroku.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký je prvý krok pri nadviazaní TCP spojenia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Klient posiela žiadosť na server pre vytvorenie relácie klient – server.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Server potvrdzuje požiadavku na reláciu s klientom a posiela žiadosť o vytvorenie relácie server – klient.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Klient potvrdzuje reláciu so serverom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Server posiela žiadosť klientovi pre vytvorenie relácie.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Aký je druhý krok pri nadviazaní TCP spojenia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Server potvrdzuje požiadavku na reláciu  s klientom a posiela žiadosť o vytvorenie relácie server – klient.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Klient posiela žiadosť na server pre vytvorenie relácie klient – server.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Klient potvrdzuje reláciu so serverom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Server posiela žiadosť klientovi pre vytvorenie relácie.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Aký je tretí krok pri nadviazaní TCP spojenia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Klient potvrdzuje reláciu (pre komunikáciu) so serverom.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Server posiela žiadosť klientovi pre vytvorenie relácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Klient posiela žiadosť na server pre vytvorenie relácie klient – server.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Server potvrdzuje požiadavku na reláciu  s klientom a posiela žiadosť o vytvorenie relácie server – klient.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre Aplikačnú vrstvu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je najbližšie ku koncovému používateľovi, interface medzi komunikujúcimi aplikáciami a sieťou.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Formátuje dáta na zdrojovom zariadení do kompatibilnej formy pre prijímajúce zariadenie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vytvára a udržiava dialógy medzi zdrojovými a cieľovými aplikáciami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šifruje dáta.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre Relačnú vrstvu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vytvára a udržiava dialógy medzi zdrojovými a cieľovými aplikáciami.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Šifruje dáta.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Formátuje dáta na zdrojovom zariadení do kompatibilnej formy pre prijímajúce zariadenie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "ZariadeJe najbližšie ku koncovému používateľovi, interface medzi komunikujúcimi aplikáciami a sieťou.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akým protokolom bol nahradený protokol BOOTP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "DHCP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "DNS",
+          "Correct": false
+        },
+        {
+          "AnswerText": "POP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "TFTP",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akú funkciu plní protokol DHCP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dynamicky priradzuje IP adresy, masky, podsiete, používa sa na koncových zariadeniach.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúži na doručovanie súborov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Plní funkcie kompresie dát.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vytvára a udržiava dialógy medzi zdrojovými a cieľovými aplikáciami.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký protokol umožňuje klientom posielať email na mailový server ?",
+      "AnswerList": [
+        {
+          "AnswerText": "SMTP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "POP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "FTP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "IMAP",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký protokol umožňuje klientom načítať emaily z poštového servera ?",
+      "AnswerList": [
+        {
+          "AnswerText": "POP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "SMTP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "FTP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "IMAP",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži protokol TFTP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to jednoduchý protokol na prenos súborov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na bezpečnú komunikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Umožňuje klientom posielať email na mailový server.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dynamické priradzovanie IP adresy, masky, podsiete.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre protokol DNS ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Poskytuje mechanizmus získania IP adresy pre každé meno stroja a naopak, a uvádza poštové servery akceptujúce poštu pre danú doménu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Umožňuje klientom posielať email na mailový server.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vytvára a udržiava dialógy medzi zdrojovými a cieľovými aplikáciami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dynamicky priradzuje IP adresy, masky, podsiete, používa sa na koncových zariadeniach.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

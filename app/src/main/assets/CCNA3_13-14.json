@@ -1,0 +1,449 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Čo sú to sieťové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré prepájajú koncové zariadenia a siete ( router, switch...)  ",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú jedinečnú IP adresu ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Káble po ktorých sú prenášané pakety",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové (počítač, mobil ,server)",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "1Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "2Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "3Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "4Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "5Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "6Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "7Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "8Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "9Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "10Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "11Čo sú to sieťové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré prepájajú koncové zariadenia a siete ( router, switch...)  ",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú jedinečnú IP adresu ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Káble po ktorých sú prenášané pakety",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové (počítač, mobil ,server)",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "12Čo sú to koncové zariadenia CNN3_13-14 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "13Čo sú to koncové zariadenia CNN3_13-14 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "14Čo sú to koncové zariadenia CNN3_13-14 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "15Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "16Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "17Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "18Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "19Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "20Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "20Čo sú to koncové zariadenia CNN3_13-14?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

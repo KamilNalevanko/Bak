@@ -1,0 +1,509 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Na čo slúži protokol STP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Slúži na zabránenie vzniku L2 slučiek a to tým, že softvérovo zablokuje redundantné spojenia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na smerovanie medzi VLAN a používa rozhrania smerovača, každá VLAN je pripojená k inému rozhraniu fyzického smerovača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na presmerovanie IP adries z jednej VLAN do druhej pomocou prepínača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na port-based kontrolu prístupu a autentifikáciu.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Aký je princíp fungovania protokolu STP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Buduje strom a všetky redundantné linky softvérovo vypne a v topológii je stále aktívna len jedna cesta medzi akýmikoľvek dvoma miestami.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pomocou softvérového vypnutia linky kontroluje prístup a autentifikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dynamicky priradzuje IP adresy, masky, podsiete, používa sa na koncových zariadeniach.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ako prebieha komunikácia medzi prepínačmi v rámci STP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Využitím BPDU, BPDU je dátová jednotka prenášajúca informácie o prepínačoch a ceste ku koreňovému prepínaču.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pomocou smerovača na paličke, kde rozhranie na prepínačoch je nakonfigurované ako 802.1Q trunk rozhranie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Využitím DNS, ktorá navyše poskytuje mechanizmus získania IP adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomocou DTLS protokolu, ktorý navyše aj šifruje komunikáciu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký je prvý krok pri tvorbe bezslučkovej topológie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Určenie koreňového prepínača (root bridge).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nastavenie portov na stav designated.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Voľba designated portov na každom segmente.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Voľba root portov na nekoreňových prepínačov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký stav majú porty na koreňovom prepínači ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Designated",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Alternate",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Root",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Access",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké rozhranie sa pri voľbe stane designated rozhraním ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Rozhranie, ktoré do segmentu posiela lepšie BPDU.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Rozhranie, ktoré do segmentu posiela najvyššie BPDU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rozhranie, ktoré má najnižšie BID.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rozhranie, ktoré posiela lepšie BID.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré rozhranie sa stáva root portom ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Také, ktoré prijme najlepšie výsledné BPDU obohatené o cost rozhrania.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Také, ktoré do segmentu posiela lepšie BPDU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rozhranie, ktoré  je softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Také rozhranie, ktoré má najnižšie BID.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré rozhranie sa stáva non-designated rozhraním ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Všetky rozhrane, ktoré ostanú po zvolení root a designated portov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Také, ktoré do segmentu posiela lepšie BPDU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rozhranie, ktoré nie je softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Také rozhranie, ktoré má najnižšie BID.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúžia STP časovače ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Určujú čas, počas ktorého port zostane v danom stave.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Určujú čas, počas ktorého STP rozhranie preposiela komunikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Určujú čas, počas ktorého sú alternate porty softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Určujú čas, počas ktorého port zostáva zapnutý.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená ak je port v stave Blocking (20s) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Port dokáže prijímať len BPDU.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU a učí sa MAC adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port je vypnutý, nie je súčasťou STP.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená ak je port v stave Listening (15s) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU a učí sa MAC adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port je vypnutý, nie je súčasťou STP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port dokáže prijímať len BPDU.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Čo znamená ak je port v stave Learning (15s) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU a učí sa MAC adresy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port je vypnutý, nie je súčasťou STP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port dokáže prijímať len BPDU.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Čo znamená ak je port v stave Forwarding ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU, učí sa MAC adresy, taktiež prijíma a odosiela dátové rámce.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU a učí sa MAC adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port dokáže prijímať len BPDU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Čo znamená ak je port v stave Disabled ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Port je vypnutý, nie je súčasťou STP.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU a učí sa MAC adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port dokáže prijímať len BPDU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Port prijíma a odosiela BPDU.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení charakterizuje verziu protokolu STP konkrétne PVST+ ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vylepšená verzia STP, poskytuje samostatnú inštanciu STP 802.1D pre každú VLAN nakonfigurovanú v sieti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pôvodný štandard, ktorý poskytuje bezslučkovú topológiu v sieti s redundantnými spojeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Verzia STP, ktorá poskytuje rýchlejšiu konvergenciu ako STP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Mapuje viac VLAN do rovnakej inštancie STP.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení charakterizuje verziu protokolu STP konkrétne RSTP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vylepšená verzia STP, ktorá poskytuje rýchlejšiu konvergenciu ako STP.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vylepšená verzia STP, poskytuje samostatnú inštanciu STP 802.1D pre každú VLAN nakonfigurovanú v sieti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pôvodný štandard, ktorý poskytuje bezslučkovú topológiu v sieti s redundantnými spojeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Mapuje viac VLAN do rovnakej inštancie STP.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení charakterizuje verziu protokolu STP konkrétne MSTP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Mapuje viac VLAN do rovnakej inštancie STP.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vylepšená verzia STP, ktorá poskytuje rýchlejšiu konvergenciu ako STP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vylepšená verzia STP, poskytuje samostatnú inštanciu STP 802.1D pre každú VLAN nakonfigurovanú v sieti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pôvodný štandard, ktorý poskytuje bezslučkovú topológiu v sieti s redundantnými spojeniami.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení charakterizuje verziu protokolu STP konkrétne Rapid PVST+ ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vylepšená verzia RSTP, využíva PVST+ a poskytuje samostatnú inštanciu 802.1w pre každú VLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vylepšená verzia STP, ktorá poskytuje rýchlejšiu konvergenciu ako STP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vylepšená verzia STP, poskytuje samostatnú inštanciu STP 802.1D pre každú VLAN nakonfigurovanú v sieti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pôvodný štandard, ktorý poskytuje bezslučkovú topológiu v sieti s redundantnými spojeniami.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé ?",
+      "AnswerList": [
+        {
+          "AnswerText": "RSTP reaguje oveľa rýchlejšie ako STP.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "STP je nástupcom RSTP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "STP je spätne kompatibilné RSTP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "STP reaguje na BPDU v oboch smeroch , zatiaľ čo RSTP nie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži mechanizmus PortFast ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Spôsobí, že rozhranie automaticky prechádza do stavu Forwarding, po zapojení kábla sa dáta hneď prenášajú.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "V prípade prijatia BPDU uvedie rozhranie na prepínači do stavu Err-Disable, neprepúšťa žiadnu komunikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje bezslučkovú topológiu v sieti s redundantnými spojeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži mechanizmus BPDU Guard ?",
+      "AnswerList": [
+        {
+          "AnswerText": "V prípade prijatia BPDU uvedie rozhranie na prepínači do stavu Err-Disable, neprepúšťa žiadnu komunikáciu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Poskytuje bezslučkovú topológiu v sieti s redundantnými spojeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsobí, že rozhranie automaticky prechádza do stavu Forwarding, po zapojení kábla sa dáta hneď prenášajú.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Načo slúži technológia EtherChannel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožňuje spojiť viacero fyzických rozhraní do jedného logického za účelom vytvorenia prenosového kanála s vyššou priepustnosťou.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Umožňuje spojiť viacero logických rozhraní do jedného fyzického za účelom vytvorenia prenosového kanála s nižšou priepusnosťou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsobí, že rozhranie automaticky prechádza do stavu Forwarding, po zapojení kábla sa dáta hneď prenášajú.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "V prípade prijatia BPDU uvedie rozhranie na prepínači do stavu Err-Disable, neprepúšťa žiadnu komunikáciu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre protokol PAgP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to patentovaný produkt od Cisca používaný iba medzi Cisco zariadeniami.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "LACP je otvorený štandard a podporuje ho väčšina dodávateľov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to patentovaný produkt od Cisca a podporuje ho väčšina dodávateľov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre protokol LACP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "LACP je otvorený štandard a podporuje ho väčšina dodávateľov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to patentovaný produkt od Cisca používaný iba medzi Cisco zariadeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to patentovaný produkt od Cisca a podporuje ho väčšina dodávateľov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktivuje všetky linky, ktoré boli softvérovo vypnuté.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre úspešné vytvorenie EtherChannelu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Linka musí obsahovať rovnakú rýchlosť a duplex mód.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Prepojenie len medzi tromi prepínačmi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Linka môže obsahovať rozdielne typy portov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Všetky rozhrania v rovnakej VLAN musia byť v móde trunk.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priroda</title>
+    <meta name="description" content="Príroda">
+    <meta name="author" content="Kamil Nalevanko">
+    <link rel=StyleSheet href="normalize.css" />
+    <link rel="stylesheet" href="upravamoduly.css" type="text/css">
+</head>
+<body>
+
+
+<header>
+    <h2 class="nadpisy">Základné režimy a orientácia v systéme</h1>
+</header>
+
+    <section>
+    <h2>Prepojenie zariadení</h2>
+    <li>Prepojenie zariadení je realizované štyrmi typmi káblov.</li>
+        <dl>
+            <dt>Konzolový kábel: </dt><br>
+            <dd>používa sa na konfiguráciu sieťového zariadenia - modrý kábel.</dd><br>
+           
+
+        <div class="ciara2"></div><br>
+            <dt>Priamy kábel:  </dt><br>
+            <dd>používa sa na dátové prepojenie zariadení, ktoré sú v rôznych skupinách. (žltá,biela,sivá koncovka)</dd> 
+        <br>
+
+        <div class="ciara2"></div><br>
+        <dt>Krížený kábel: </dt><br>
+        <dd>používa sa na dátové prepojenie zariadení, ktoré sú v rovnakej skupine - modrá koncovka</dd>
+        <br>
+
+        <div class="ciara2"></div><br>
+        <dt>Sériový kábel: </dt><br>
+        <dd>používa sa na dátove prepojenie dvoch sériových rozhraní na smerovačoch</dd>
+       
+    </dl>
+        <div class="ciara"></div>
+        <h2>Tri hlavné režimy operačného systému</h2>
+        <dl>
+            <dt>Používateľský režim: </dt><br>
+            <dd>má obmedzené možnosti a umožňuje len obmedzený počet základných príkazov na monitorovanie. Režim je identifikovaný <b>symbolom ></b>. Prechod do vyššieho režimu sa vykonáva pomocou príkazu <b>enable</b>.</dd><br>
+            
+            <div class="konfig"><p class="kod">Router><b> enable<br><br></b>Router#</p></div><br>
+
+            <div class="ciara2"></div><br>
+
+            <dt>Privilegovaný režim: </dt><br>
+            <dd>je určený na zobrazovanie informácií o zariadení, ukladanie alebo mazanie konfigurácie a podobne. Režim je identifikovaný <b>symbolom #</b>. Prechod do vyššieho režimu je možný pomocou príkazu <b>configure terminal</b>.</dd><br>
+            
+            <div class="konfig"><p class="kod">Router#<b> configure terminal<br><br></b>Router(config)#</p></div><br>
+            <div class="ciara2"></div><br>
+
+            <dt>Globálny konfiguračný režim: </dt><br>
+            <dd>je určený na konfiguráciu zariadenia. Z tohto režimu vieme prechádzať do špeciálnych režimov.</dd><br>
+            <div class="ciara2"></div><br>
+
+            <dt>Špeciálne režimy: </dt><br>
+            <dd>sú režimy, v ktorých konfigurujeme konkrétne časti zariadenia.</dd><br>
+            
+            <div class="konfig"><p class="kod">Router(config-if)#<br><br>Router(config-router)#<br><br>Router(config-line)#<br></p></div><br>
+            <div class="ciara2"></div><br>
+
+            <dt>Logická topológia:</dt><br>
+            <dd>Zobrazuje spôsob prenosu rámcov z jedného uzla na druhý, tieto logické cesty signálu sú definované L2 protokolmi.</dd>
+        </dl>
+        <div class="ciara"></div>
+        <h2>Ukážka prechodu medzi režimami a nastavenie času:</h2>
+        <dl>
+            <dt>Príklad: </dt><br>
+            <div class="konfig"><p class="kod">Router><b> enable</b><br><br>Router#<b> clock set</b> 12:00:00 5 Feb 2021<br><br>
+            Router#<b> show clock</b><br><br>Router#<b> configure terminal</b><br><br> Router(config)#<b> interface</b> FastEthernet 0/0<br><br>
+            Router(config-if)#<b> exit</b><br><br>Router(config)# <b>line console 0</b><br><br>Router(config)#<b> exit</b><br><br>Router#<br></p></div><br>
+            <div class="ciara2"></div><br>
+        </dl>
+    
+    </section>
+    
+    
+</body>
+</html>
+

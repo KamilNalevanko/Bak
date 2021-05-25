@@ -1,0 +1,409 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Aká je základná funkcia smerovača  ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Rozhodovať sa pre najlepšiu cestu, ktorou poslať ďalej paket, na základe informácií z routovacej tabuľky a poslať pakety smerom k ich cieľu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vytvára routovaciu tabuľku na základe ktorej prepínače posielajú pakety.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šifruje komunikáciu medzi koncovými zariadeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Odosiela pakety tam kam mu to prepínač pomocou tabuľky prikáže.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Vyberte možnosť, ktorá obsahuje len vlastnosti statického smerovania.",
+      "AnswerList": [
+        {
+          "AnswerText": "Manuálne zadanie smerov do smerovacej tabuľky, Smery do cieľa sú vždy rovnaké",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Smery do cieľa sú vždy rovnaké, Automaticky sa prispôsobí zmenám topológii",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smery do cieľa sú závislé od súčasnej topológie, Manuálne zadanie smerov do smerovacej tabuľky",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Automatizované učenie, Menej bezpečné",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Čo znamená smerovanie na základe najdlhšej zhody  ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Najlepšia cesta v smerovacej tabuľke sa inak nazýva aj najdlhšia zhoda.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vytvára routovaciu tabuľku na základe ktorej prepínače posielajú pakety.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šifruje komunikáciu medzi koncovými zariadeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Odosiela pakety tam kam mu to prepínač pomocou tabuľky prikáže.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké dve funkcie dynamických smerovacích protokolov poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Udržiavanie smerovacích tabuliek, objavenie siete",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Udržiavanie smerovacích tabuliek, Zabrániť preťaženiu smerovača",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Udržiavanie informácii v sieti, objavenie siete",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Objavenie siete, zvolenie cesty podľa správcu",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aká je výhoda ak použijeme dynamické smerovacie protokoly namiesto statického smerovania ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Ak nie je súčasná cesta k dispozícii tak vyhľadáva nové trasy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Udržiavanie smerovacích tabuliek.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ľahšie sa implementuje.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Menšie požiadavky na réžiu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre Process switching preposielanie paketov ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Paket je presmerovaný do riadiacej roviny, kde sa pri zisťovaní zhody cieľovej adresy s položkou v smerovacej tabuľke zapája CPU.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Mechanizmus na ukladanie informácií o preposielaní používa vyrovnávaciu pamäť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Paket je presmerovaný do riadiacej roviny, kde CPU vyhľadáva zhodu vo fast sw. cache.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "CEF vytvára FIB tabuľku a tabuľku susedstiev.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre Fast switching preposielanie paketov ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pre rýchle vyhľadávanie sú v nej uložené informácie o tokoch paketov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pomalší a starší mechanizmus.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Paket je presmerovaný do riadiacej roviny, kde sa pri zisťovaní zhody cieľovej adresy s položkou v smerovacej tabuľke zapája CPU.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Po skonvergovaní siete obsahuje tabuľka susedstiev a FIB všetky informácie, kt. by smerovač musel pri preposielaní paketu zvážiť.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako definujeme CEF ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Najrýchlejší, najnovší a preferovaný mechanizmus pre preposielanie paketov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Mechanizmus na presmerovanie paketov, ktorý nahradil process switching.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomalší a starší mechanizmus.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zastaralý mechanizmus, ktorý už nahradil Fast switching.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Hodnota, ktorá sa používa na meranie vzdialenosti  k danej sieti sa nazýva ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Metrika",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Administratívna vzdialenosť",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dĺžka",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prefix",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Hodnota, ktorá identifikuje spôsob naučenia sa siete v routovacej tabuľke sa nazýva ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Administratívna vzdialenosť",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Metrika",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prefix ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dĺžka",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre Metriku ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Každý dynamický smerovací protokol má svoje vlastné pravidlá a metriky.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Prednosť má cesta s nižšou hodnotou administratívnej vzdialenosti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovacia tabuľka môže mať viac ako jeden zdroj pre rovnakú cieľovú sieť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každý smerovací protokol môže uprednostňovať k dosiahnutiu rovnakého cieľa inú cestu.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre Administratívnu vzdialenosť ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Každý smerovací protokol môže uprednostňovať k dosiahnutiu rovnakého cieľa inú cestu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Každý dynamický smerovací protokol má svoje vlastné pravidlá a metriky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovací protokol nemôže uprednostňovať k dosiahnutiu rovnakého cieľa inú cestu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovacia tabuľka nemôže mať viac ako jeden zdroj pre rovnakú cieľovú sieť.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Vyberte možnosť, ktorá obsahuje len vlastnosti dynamického smerovania.",
+      "AnswerList": [
+        {
+          "AnswerText": "Automatizované učenie použitím dynamických smerovacích protokolov, Menej bezpečné",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Manuálne zadanie smerov do smerovacej tabuľky, Smery do cieľa sú vždy rovnaké",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pri zmene topológie potrebný zásah admina, Menej bezpečné",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pri zmene topológie potreba rekonfigurácie, Využíva pamäť",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Aký smerovací protokol bol vyvinutý pre potreby väčších sietí ?",
+      "AnswerList": [
+        {
+          "AnswerText": "OSPF",
+          "Correct": true
+        },
+        {
+          "AnswerText": "RIP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "CAPWAP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "STP",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Kedy sa používa plávajúca statická cesta ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Používa sa len ak nie je primárna cesta dostupná.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Používa sa len ak nie je sekundárna cesta dostupná.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa stále aj keď je dostupná primárna cesta.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ak nie je dostupná sekundárna.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení definuje next- hop ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to adresa pripojeného smerovača, ktorý preposiela pakety do vzdialenej siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Lokálne rozhranie pre preposielanie paketov na vzdialený smerovač.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Maska vzdialenej siete, ktorá sa pridá do smerovacej tabuľky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Cieľová adresa vzdialenej siete, ktorá sa pridá do smerovacej tabuľky.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akým príkazom konfigurujeme statickú cestu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Ip route",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Interface loopback",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ip default-gateway",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Interface",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži príkaz traceroute ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vypíše cestu k cieľovému zariadeniu s IP adresou.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Urobí kontrolu konektivity na tretej vrstve s cieľovým zariadením s IP adresou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na zobrazenie smerovacej tabuľky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na zobrazenie informácii o rozhraniach.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži príkaz show ip route ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na zobrazenie smerovacej tabuľky.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vypíše cestu k cieľovému zariadeniu s IP adresou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Urobí kontrolu konektivity na tretej vrstve s cieľovým zariadením s IP adresou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na zobrazenie informácii o rozhraniach.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži príkaz show ip interface brief ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zobrazenie informácii o rozhraniach.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na zobrazenie smerovacej tabuľky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vypíše cestu k cieľovému zariadeniu s IP adresou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Urobí kontrolu konektivity na tretej vrstve s cieľovým zariadením s IP adresou.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

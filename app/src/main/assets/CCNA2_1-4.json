@@ -1,0 +1,610 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Aká prvá akcia sa vykoná pri zapnutí prepínača ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Automatický test pri zapnutí ( Power-on Self-Test).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Spustí sa zavádzač systému (Boot loader).",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Načítanie predvoleného Cisco IOS softvéru.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Inicializácia procesora na nízkej úrovni.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Aký je význam manažmentového rozhrania (SVI) na prepínači ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to virtuálne rozhranie prepínača, priradzujú sa k nemu IP informácie, vďaka čomu sa môže prepínač správať ako smerovač.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Používa sa na ukladanie IP adries koncových zariadení.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zoraďuje lokálne IP adresy, susedných smerovačov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to fyzické rozhranie prepínača, priradzujú sa k nemu informácie MAC adries.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ktorý z príkazov zobrazí informácie nastavení auto – MDIX pre konkrétne rozhranie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Show controllers",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Show interfaces",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show ping",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show processes",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký protokol zvýši zabezpečenie vzdialených pripojení ?",
+      "AnswerList": [
+        {
+          "AnswerText": "SSH",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Telnet",
+          "Correct": false
+        },
+        {
+          "AnswerText": "POP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "FTP",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akú funkciu plnia príkazy typu show ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Poskytujú nám výpis aktuálnych nastavení, overenie pripojenia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúžia nám len na výpis aktuálnych susedných zariadení.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Takéto príkazy neplnia žiadnu funkciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytujú výpis aktuálne priradených IP adries k smerovaču.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý z príkazov slúži na zobrazenie posledných zadaných príkazov ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Show history",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Show",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show section",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show all",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Po akom kroku v bootovaní prepínača sa vykoná bootloader ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Po vykonaní POST",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Po inicializácii procesora",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Po lokalizácii operačného systému",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to prvý krok",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre mód port-security ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to mechanizmus umožňujúci zabezpečiť prístup do siete na prepínačoch, obmedzením počtu MAC adries.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to mechanizmus umožňujúci zabezpečiť prístup do siete na smerovačoch, vďaka filtrovaniu IP adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to mechanizmus, ktorý slúži na šifrovanie MAC adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa pri blokovaní nechcených zariadení na základe doménových mien.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké módy narušenia má Port – Security ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Protect, Restrict, Shutdown",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Protect, Reject, Shutdown",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Protect, Reject, Restrict",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Restrict, Shutdown, Property",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý mód narušenia Port – Security zahadzuje nepovolenú komunikáciu a generuje správu o porušení ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Restrict",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Protect",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Shutdown",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Reject",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre Port – security mód shutdown ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pri prijatí rámca, ktorý porušuje bezpečnostnú konfiguráciu uvedie dané rozhranie do stavu Error – disabled.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zahadzuje nepovolenú komunikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahadzuje nepovolenú komunikáciu a generuje správu o porušení.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pri prijatí rámca, ktorý porušuje bezpečnostnú konfiguráciu uvedie dané rozhranie do stavu access.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre stav rozhrania Error – Disabled ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to softvérovo vypnuté rozhranie, prestane posielať dáta.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to rozhranie, ktoré prestalo prijímať MAC adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to rozhranie, ktoré ma nastavený Port – security mód ako Protect.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to rozhranie v móde trunk.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ako charakterizujeme VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to virtuálna LAN sieť, ktorá rozdelí prepínač na viac logických prepínačov, umožňuje súčasne vytvorenie viacerých VLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to fyzická LAN sieť, ktorá rozdelí prepínač na viac logických prepínačov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na rýchly prenos informácií, nie je škálovateľná.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to virtuálna LAN sieť, ktorá slúži len na prijímanie a filtrovanie MAC adries.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Na čo nám slúži VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožňuje súčasne vytvorenie viacerých VLAN, znižuje náklady a má lepší výkon.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Umožňuje nám filtrovať nechcené IP adresy a znižuje náklady.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Umožňuje pomalší no kvalitnejší prenos informácií.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na tagovanie rámcov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké typy VLAN poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Defaultná, Dátová, Natívna, Manažmentová, Hlasová",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Dátová, Natívna, Hlasová, Základná, Predvolená",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Natívna, Hlasová, Defaultná, Manažmentová",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Predvolená, Dátová, Natívna, Manažmentová",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá VLAN obsahuje neoznačenú prevádzku a zároveň je ňou štandardne VLAN 1 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Natívna",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Dátová",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Manažmentová ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hlasová",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá VLAN je vytvorená pre prenos prevádzky pre správu siete ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Manažmentová",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Natívna ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hlasová",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Predvolená",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži Hlasová VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na prenos IP telefónie a oddeľuje sa od dátovej VLAN-y.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na prenos prevádzky pre správu siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje neoznačenú prevádzku.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vytvára sa pre špecifické skupiny používateľov alebo zariadení.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre značenie rámcov (Tagovanie) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to proces pridávania VLAN identifikátora do hlavičky rámca.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to proces pridávania hlavičky do VLAN identifikátora.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na prenos prevádzky pre správu siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dnes sa už nepoužíva.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo sa používa na správne posielanie viacerých VLAN rámcov prostredníctvom trunkovej linky ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Značenie rámcov",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Manažmentová VLAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dátová VLAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hlasová VLAN",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako definujeme rozhranie v móde trunk ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Takéto rozhranie prenáša viacero VLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Takéto rozhranie šifruje vonkajšiu komunikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rozhranie v móde trunk patrí práve do jednej VLAN-y.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rozhranie prepúšťa IP adresy v určenom rozsahu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená ak je rozhranie v móde Access ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Že patrí do práve jednej VLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Že prenáša viacero VLAN.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Že zahadzuje nepovolenú komunikáciu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Takéto rozhranie šifruje vonkajšiu komunikáciu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký je rozsah VLAN s normálny rozsahom ?",
+      "AnswerList": [
+        {
+          "AnswerText": "VLAN čísla od 1 do 1005.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "VLAN čísla od 1 do 505.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN čísla od 1006 do 4096.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN čísla od 1 do 4096.",
+          "Correct": false
+        }
+      ]
+    }
+    ,    {
+      "QuestionText": "Aký je rozsah VLAN s rozšíreným rozsahom ?",
+      "AnswerList": [
+        {
+          "AnswerText": "VLAN čísla od 1006 do 4096.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "VLAN čísla od 1 do 505.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN čísla od 1006 do 4096.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN čísla od 1 do 4096.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži protokol DTP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožňuje vytvárať trunk na základe stavu portu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Spája názvy zdrojov s požadovanou číselnou sieťovou adresou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na odosielanie emailov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na overenie dostupnosti služby alebo zariadenia v sieti.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "V akých režimoch pracuje protokol DTP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Access, trunk, dynamic auto, dynamic desirable",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Trunk, dynamic auto, dynamic desirable",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Access, restrict, dynamic auto, dynamic desirable",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Restrict, trunk, dynamic auto, dynamic desirable",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži inter – VLAN smerovanie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na presmerovanie sieťovej prevádzky z jednej VLAN do druhej pomocou smerovača.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Neslúži na nič.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na šifrovanie sieťovej prevádzky z jednej VLAN do druhej pomocou smerovača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na presmerovanie IP adries z jednej VLAN do druhej pomocou prepínača.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké 3 možnosti  inter – VLAN smerovania poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Tradičné smerovanie, Smerovač na paličke, Použitím L3 prepínača",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Smerovač na paličke, Použitím L2 prepínača, Tradičné smerovanie",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Tradičné smerovanie, Smerovač na L2 prepínači, Použitím L3 prepínača",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovač na paličke, Použitím L2 prepínača, Statické smerovanie na L2 prepínači",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre smerovač na paličke ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Používa sa len jedno fyzické rozhranie smerovača, nakonfigurované ako 802.1Q trunk rozhranie.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na oboch zariadeniach sa vytvoria VLAN-y, porty koncových zariadení sú accessové, linka medzi prepínačmi je trunková.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na presmerovanie IP adries z jednej VLAN do druhej pomocou prepínača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na smerovanie medzi VLAN sa používajú rozhrania smerovača, každá VLAN je pripojená k inému rozhraniu fyzického smerovača.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre smerovanie použitím L3 prepínača ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na oboch zariadeniach sa vytvoria VLAN-y, porty koncových zariadení sú accessové, linka medzi prepínačmi je trunková.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Používa sa len jedno fyzické rozhranie smerovača, nakonfigurované ako 802.1Q trunk rozhranie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na smerovanie medzi VLAN sa používajú rozhrania smerovača, každá VLAN je pripojená k inému rozhraniu fyzického smerovača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na presmerovanie IP adries z jednej VLAN do druhej pomocou prepínača.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

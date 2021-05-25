@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+.nadpis1{
+    background: #66977A ;
+    color: white;
+    width: 100%;
+    padding-bottom: 12%;
+    padding-top: 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 5vw;
+    font-family: Roboto;
+
+}
+h3{
+font-size:19px;}
+h2{
+font-size:21px;}
+.nadpisy{
+      margin-bottom: 16px;
+      border-bottom: 4px solid #B4C7C5;
+      color: #056153;
+      padding-bottom: 16px;
+      font-size: 26px;
+      font-weight: 400;
+      padding-left: 3vw;
+      padding-right: 3vw;
+      text-align:center;
+      font-family: Roboto;
+}
+
+
+body{
+background-color: white;
+
+}
+
+
+
+.tema1{
+    background:#66977A ;
+    color: white;
+    position: relative;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 6vw;
+    display: block;
+    margin-top: 5%;
+    width:100%;
+    font-family: Roboto;
+}
+.tema2{
+   background: #66977A ;
+    color: white;
+    position: relative;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 6vw;
+    display: block;
+    margin-top: 5%;
+    width:100%;
+    font-family: Roboto;
+}
+.tema3{
+   background: #66977A ;
+    color: white;
+    position: relative;
+    padding-top: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 6vw;
+    display: block;
+    margin-top: 5%;
+    width:100%;
+    padding-bottom: 20%;
+    font-family: Roboto;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.responsive2 {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+font-family: Open Sans;
+padding-left: 10px;
+padding-right: 10px;
+font-size:18px;
+}
+
+section dt { font-size:19px;
+color:#407d59;
+font-weight:500;}
+
+.ciara{
+
+border-bottom: 3px solid #B4C7C5;
+}
+.ciara2{
+
+border-bottom: 1px solid #B4C7C5;
+}
+
+.konfig{
+  width: 98%;
+  height: 25%;
+  background: rgba(30, 201, 101, 0.15);
+}
+
+.kod{
+  font-family: monospace;
+  font-size: 0.8em;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priroda</title>
+    <meta name="description" content="Príroda">
+    <meta name="author" content="Kamil Nalevanko">
+    <link rel=StyleSheet href="normalize.css" />
+     <link rel="stylesheet" href="upravamoduly.css" type="text/css">
+</head>
+<body>
+
+
+<header>
+
+
+    <h1 class="nadpisy">Základná konfigurácia zariadení</h1>
+</header>
+
+
+<section>
+    <p>Na zmenu názvu zariadenia sa používa príkaz <b>hostname</b>. Ďalej je potrebné zabezpečiť prístup na zariadenia, ktorý je možné realizovať nasledujúci spôsobmi:</p>
+    <ul>
+        <li>Heslo do privilegovaného režimu, ktoré môže byť šifrované alebo nešifrované</li>
+        <li>Heslo do konzoly</li>
+        <li>Heslo pre virtuálne terminály</li>
+    </ul>
+        
+    </dl>
+
+        <dl>
+            <dt>Príklad nastavenia názvu zariadenia a hesiel: </dt>
+            
+            <div class="konfig"><p class="kod">Router#<b> configure terminal</b><br><br>Router(config)#<b>hostname</b> Router1<br><br>Router1(config)#<b>enable password</b> heslo  <span style="color:blue">//nešifrované</span>
+            <br><br>Router1(config)# <b>enable secret</b> heslo2 <span style="color:blue">//šifrované (md5 hash)</span><br><br>Router1(config)# <b>service password-encryption</b><br><br><br>Router1(config)# <b>line console 0</b><br><br>Router1(config-line)# <b>password</b> heslokonzola<br><br>Router1(config-line)#<b> login<br><br><br>
+            </b>Router1(config)# <b>line vty 0 15</b><br><br>Router1(config-line)# <b>password</b> heslo3<br><br>Router1(config-line)# <b>login</b></p></div><br>
+
+            <ul>
+                <li>V bežiacej konfigurácii sú heslá uložené nezašifrovane. Takto uložené heslá môžeme zašifrovať jednoducho príkazom <b>service password-encryption</b></li><br>
+                <li>Pomocou príkazu <b>login</b> vyžiadame heslo od používateľa.</li><br>
+            </ul>
+
+            <div class="ciara"></div><br>
+
+            <dt>Konfigurácia rozhraní: </dt><br>
+            <dd>pomocou príkazu <b>interface</b> sa dostaneme do režimu konfigurácie rozhrania. V rámci tohto režimu konfigurujeme popis rozhrania príkazom <b>description</b>, IP adresy zase príkazom <b>ip address</b>. Rozhrania je potrebné zapnúť príkazom <b>no shutdown</b>, pretože sú štandardne na smerovači vypnuté. </dd><br>
+            
+            <div class="konfig"><p class="kod">Router1(config)#<b> interface</b> fastethernet 0/0<br><br></b>Router1(config-if)# <b>description</b> Prepojenie s Pc1<br><br>Router1(config-if)# <b>ip address</b> 192.168.20.1 255.255.255.0<br><br>Router1(config-if)# <b>no shutdown</b></p></div><br>
+            <div class="ciara2"></div><br>
+            <dd>Na sériovom rozhraní konfigurujeme aj <b>clock rate</b> - na DCE (Data Communication Equipment) strane, pomocou príkazu <b>show controllers serial0/0/0</b> zistíme o akú stranu ide.</dd><br>
+            <div class="konfig"><p class="kod">Router1(config-if)#<b>clock rate</b> 64000</p></div><br>
+
+            <ul>
+                <li>Frekvencia hodín určuje, koľko bitov je možné odoslať za daný čas.</li><br>
+            </ul>
+
+            <div class="ciara2"></div><br>
+           
+            <dd>Informácie o rozhraniach (stav, ip adresa...) zobrazíme pomocou príkazu <b>show ip interface brief</b></dd><br>
+            <div class="konfig"><p class="kod">Router1#<b> show ip interface brief</b></p></div><br>
+
+            <ul>
+                <li>Frekvencia hodín určuje, koľko bitov je možné odoslať za daný čas.</li><br>
+            </ul>
+
+            <div class="ciara"></div><br>
+            <dt>Konfigurácia správy dňa: </dt><br>
+            <dd>Správa sa zobrazuje po pripojení na zariadenie. Na ohraničenie správy, ktorá bude  vypísaná slúži znak <b>*</b>. Znak sa nesmie vyskytovať v tele správy.</dd><br>
+            
+            <div class="konfig"><p class="kod">Router1(config)#<b> banner motd</b> *Dobrý deň práve ste sa pripojili na zariadenie.*</p></div><br>
+          
+            <div class="ciara"></div><br>
+          
+            <dt>Konfigurácia SSH: </dt><br>
+            <dd>Pri konfigurácii SSH vytvárame lokálnu databázu, pomocou ktorej sa budeme autentifikovať. Ďalej nakonfigurujeme <b>hostname</b> a doménové meno príkazom <b>ip domain-name</b>, z ktorých sa bude generovať klúč na šifrovanie. Príkazom <b>crypto key generate rsa</b> následne vygenerujeme kľúč (veľkosť kľúča určíme).
+            Na termináli povolíme prihlasovanie len cez SSH príkazom <b>transport input ssh</b> a na prihlásenie použijeme lokálnu databázu príkazom <b>login local</b>.</dd><br>
+            
+            <div class="konfig"><p class="kod">Router1(config)#<b> username</b> student <b>password</b> heslo<br><br>Router1(config)# <b>ip domain-name</b> cnl.sk<br><br>Router1(config)# <b>crypto key generate rsa</b><br><br>Router1(config)# <b>line vty</b> 0 4<br><br>Router1(config-line)# <b>login local</b><br><br>
+                Router1(config-line)# <b>transport input ssh</b><br></p></div><br>
+                
+                <div class="ciara"></div><br>
+                
+                <dt>Uloženie a odstránenie konfigurácie:</dt><br>
+
+                <dd>Bežiacu konfiguráciu môžeme uložiť:</dd><br>
+
+                <ul>
+                    <li>Do NVRAM</li>
+                    <li>na tftp (server)</li><br>
+                </ul>
+                <p>Na odstránenie štartovacej konfigurácie používame <b>erase startup-config</b>.</p>
+                <div class="konfig"><p class="kod">Router1#<b> copy running-config startup-config</b><br><br>Router1# <b>copy running-config tftp</b><br><br>Router1# <b>erase startup-config</b><br></p></div>
+                <p>Bežiacu konfiguráciu môžeme zobraziť pomocou príkazu <b>show running-config</b>.</p>
+                <div class="konfig"><p class="kod">Router1#<b> show running-config</b><br></p></div><br>
+
+                <div class="ciara"></div><br>
+          
+                <dt>Ping a traceroute: </dt><br>
+                <ul>
+                    <li><b>ping</b> robí kontrolu konektivity na tretej vrstve s cieľovým zariadením s IP adresou 192.168.10.1 (príklad ip)</li>
+                    <li><b>traceroute</b> vypíše cestu (zoznam smerovačov) k cieľovému zariadeniu s IP adresou 192.168.10.1 (príklad ip)</li><br>
+                </ul>
+                <div class="konfig"><p class="kod">Router1#<b> ping</b> 192.168.10.1<br><br>Router1# <b>traceroute</b> 192.168.10.1<br></p></div>
+                <dd>Príkazy z privilegovaného módu vieme zadať aj z globálneho konfiguračného alebo vyšších módov pridaním kľúčového slova <b>do</b> pred príkaz.</dd><br>
+                    
+                <div class="ciara"></div><br>
+
+                <dt>Ďalšie doplňujúce príkazy: </dt><br>
+                <dd>Na vypnutie automatického vyhodnotenia nerozpoznaného príkazu na lokálny hostiteľský názov použijeme príkaz <b>no ip domain-lookup</b>.
+                Pre sýnchronne zapisovanie do konzoly je potrebné zadať príkaz <b>logging synchronous</b>. Pomocou príkazu <b>exec-timeout</b> vieme určiť po akom čase nečinnosti bude používateľ odhlásený z danej prístupovej linky.
+                Príkazom  <b>security password min-length</b> je možné zvýšiť bezpečnosť tak, že definujeme minimálnu dĺžku hesla. Ďalším príkazom na zlepšenie bezpečnosti a vyhnutiu sa útokom tvrdou silou je <b>login block-for</b>.
+            Príkaz určí ako dlho bude zablokovaný prístup na prihlásenie, v prípade, že došlo k určitému počtu neúspešných prihlásení v rámci definovaného intervalu.</dd><br>
+
+                <div class="konfig"><p class="kod">Router1(config)#<b> no ip domain-lookup</b><br><br>Router1(config)# <b>security password min-length</b> 8<br><br>
+                Router1(config)# <b>login block-for</b> 120 <b>attempts</b> 3 <b>within</b> 60<br><br>Router1(config)# line console 0<br><br>Router1(config)# <b>logging synchronous</b><br><br>Router1(config)# <b>exec-timeout</b> 5 30 <br></p></div>
+                    
+                <div class="ciara"></div><br>
+
+                <dt>Priradenie sieťových nastavení na koncové zariadenie: </dt><br>
+                
+                <dd>Open Network and Sharing Centre -> Ethernet -> Change adapter settings -> Klik pravým tlačidlom na sieťovú kartu -> Properties -> Protocol TCP/IPv4 (Internet Protocol Version 4) -> Properties<br><br> Na tomto mieste treba zmeniť nastavenia IPv4 adresy, masky a brány.</dd><br>
+
+
+                <div class="konfig"><p class="kod">C:\>nslookup netacad.com</p></div>
+                    
+                <dd>Príkazom <b>nslookup</b> z príkazového riadku je možné zistiť IP adresu na základe zadaného doménového názvu.</dd><br>
+
+                <div class="ciara"></div><br>
+                <dt>Zobrazenie sieťových nastavení v CMD na PC </dt><br>
+
+                <div class="konfig"><p class="kod">C:\>ipconfig<br><br>C:\>ipconfig /all<br>
+                </p></div>
+                <div class="ciara2"></div><br>
+             
+                <dt>Testovanie konektivity v CMD na PC </dt><br>
+
+                <div class="konfig"><p class="kod">C:\>ping 192.168.20.1 <span style="color:blue"> //príklad ip</span><br><br>C:\>tracert 192.168.20.1<span style="color:blue"> //príklad ip</span><br>
+                </p></div>
+                <div class="ciara2"></div><br>
+    </section>
+</body>
+</html>
+

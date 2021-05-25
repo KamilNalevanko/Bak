@@ -1,0 +1,609 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Čo sú to sieťové zariadenia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré prepájajú koncové zariadenia a siete ( router, switch...).  ",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré nemajú žiadnu IP adresu alebo ju nepotrebujú.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Káble po ktorých sú prenášané pakety.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové (počítač, mobil ,server).",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Čo sú to koncové zariadenia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré nemajú žiadnu IP adresu alebo ju nepotrebujú.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Medené káble, optické vlákna a bezdrôtová sieť nám slúžia na...",
+      "AnswerList": [
+        {
+          "AnswerText": "Prenášanie paketov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Neslúžia na nič.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šifrovanie signálov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vytváranie alternatívnych ciest pri ohrození siete.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak sú dáta kódované do svetelných impulzov, aký typ sieťového média bol použitý ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Optické vlákna",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Bezdrôtová sieť",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Medené káble",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hliníkové káble",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak sú dáta kódované do elektrických impulzov, aký typ sieťového média bol použitý ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Medené káble",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Hliníkové káble",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Optické vlákna",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Bezdrôtová sieť",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak sú dáta kódované do elektromagnetických vĺn na základe frekvenčnej modulácie, aký typ sieťového média bol použitý ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Bezdrôtová sieť",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Optické vlákna ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Medené káble",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hliníkové káble",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Fyzická topológia zobrazuje...",
+      "AnswerList": [
+        {
+          "AnswerText": "Fyzické prepojenia a identifikuje, ako sú prepojené koncové zariadenia a infraštruktúry (smerovače, prepínače...).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Spôsob prenosu rámcov z jedného uzla na druhý, logické cesty signálu sú definované L2 protokolmi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsob prenosu fyzických prepojení a identifikuje, ako sú prepojené logické cesty signálu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsob ako sú logické cesty signálu  definované L2 protokolmi.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Logická topológia zobrazuje...",
+      "AnswerList": [
+        {
+          "AnswerText": "Spôsob prenosu rámcov z jedného uzla na druhý, logické cesty signálu sú definované L2 protokolmi.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Fyzické prepojenia a identifikuje, ako sú prepojené koncové zariadenia a infraštruktúry (smerovače, prepínače...).",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsob ako sú logické cesty signálu definované L2 protokolmi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsob prenosu fyzických prepojení a identifikuje, ako sú prepojené logické cesty signálu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako charakterizujeme LAN (lokálna sieť) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zahŕňa malú oblasť, ktorú vlastní alebo prevádzkuje jednotlivec a zariadeniam poskytuje vysokorýchlostnú šírku pásma.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zahŕňa väčšiu geografickú oblasť (mesto, kraj)",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Osobná sieť",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa širokú geografickú oblasť, ktorá typicky zahŕňa poskytovateľa telekomunikačných služieb.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": " Ako charakterizujeme MAN (metropolitná sieť) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zahŕňa väčšiu geografickú oblasť (mesto, kraj)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Osobná sieť",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa širokú geografickú oblasť, ktorá  typicky zahŕňa poskytovateľa telekomunikačných služieb.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa malú oblasť, ktorú vlasti alebo prevádzkuje jednotlivec a zariadeniam poskytuje vysokorýchlostnú šírku pásma.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako charakterizujeme WAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zahŕňa širokú geografickú oblasť, ktorá  typicky zahŕňa poskytovateľa telekomunikačných služieb.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Osobná sieť",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa malú oblasť, ktorú vlasti alebo prevádzkuje jednotlivec a zariadeniam poskytuje vysokorýchlostnú šírku pásma.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa väčšiu geografickú oblasť (mesto , kraj)",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ako charakterizujeme PAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Osobná sieť",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zahŕňa väčšiu geografickú oblasť (mesto , kraj)",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa malú oblasť, ktorú vlasti alebo prevádzkuje jednotlivec a zariadeniam poskytuje vysokorýchlostnú šírku pásma",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa širokú geografickú oblasť, ktorá  typicky zahŕňa poskytovateľa telekomunikačných služieb",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Čo znamená pojem konvergovaná sieť ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Sieť umožňuje prenos viacerých služieb cez jedno prepojenie, môže poskytovať dáta, zvuk, video medzi rôznymi typmi zariadení cez tú istú sieťovú infraštruktúru.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Sieť umožňuje prenos len jednej zo služieb dát, zvuku a videa cez jedno prepojenie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Sieť neumožňuje prenos viacerých služieb cez jedno prepojenie, medzi rôznymi typmi zariadení cez tú istú sieťovú infraštruktúru.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Sieť umožňuje iba prenos zvuku medzi rôznymi typmi zariadení no cez tú istú sieťovú infraštruktúru.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Škálovateľnosť znamená že ...",
+      "AnswerList": [
+        {
+          "AnswerText": "Sieť sa môže rýchlo a jednoducho rozšíriť bez ovplyvnenia výkonnosti služieb, dodržiavajú sa prijaté štandardy a protokoly.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Sieť sa nemôže rýchlo a jednoducho rozšíriť bez ovplyvnenia výkonnosti služieb, dodržiavajú sa prijaté štandardy a protokoly.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Sieť obmedzuje vplyv poruchy obmedzením počtu postihnutých zariadení.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Sieť poskytuje redundanciu implementáciou siete s prepínaním paketov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená bezpečnosť siete ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zabránenie neoprávnenému prístupu k SW, ochrana informácií prenášaných cez sieť.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Sieť sa nemôže rýchlo a jednoducho rozšíriť bez ovplyvnenia výkonnosti služieb, dodržiavajú sa prijaté štandardy a protokoly.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Sieť sa nemôže rýchlo a jednoducho rozšíriť bez ovplyvnenia výkonnosti služieb, dodržiavajú sa prijaté štandardy a protokoly.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hlasové a živé vysielanie videa má vyššie očakávania pre doručenie služby.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké tri ciele má zabezpečenie siete ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dôvernosť, integrita, dostupnosť",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Dôvernosť, bezpečnosť, šifrovanie",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dôvernosť, integrita, šifrovanie",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dôvernosť, bezpečnosť, dostupnosť",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Kvalita služieb (QoS) znamená, že...",
+      "AnswerList": [
+        {
+          "AnswerText": "Hlasové a živé vysielanie videa má vyššie očakávania pre doručenie služby.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Len živé vysielanie videa ma vyššie očakávania  pre doručenie služby.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovač nemôže ľahšie spravovať tok dát a hlasového prenosu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Len hlasové vysielanie má vyššie očakávania pre doručenie služby.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Odolnosť voči chybám definujeme ako...",
+      "AnswerList": [
+        {
+          "AnswerText": "Obmedzenie vplyvu poruchy obmedzením počtu postihnutých zariadení, na odolnosť je potrebných viac ciest.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ľahšie spravovanie toku dát a hlasového prenosu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zabezpečenie včasného a spoľahlivého prístupu k údajom pre oprávnených používateľov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Istotu, že údaje neboli počas prenosu zmenené.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": " Čo je to konzolové rozhranie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Sériové rozhranie, ktoré sa používa predovšetkým na správu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Rozhranie pre vzdialené a bezpečné spravovanie servera.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Skratkou sa konzolové rozhranie nazýva SSH.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Virtuálne rozhranie na vytvorenie CLI relácie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži Secure Shell (SSH) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na vzdialené a bezpečné vytvorenie CLI relácie po sieti, overenie používateľa (heslá a príkazy sú šifrované).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na  počiatočnú konfiguráciu smerovača.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na overenie používateľa, heslá a príkazy sa po sieti posielajú ako plain text.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Neslúži na nič.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Ak je to možné je lepšie použiť vždy SSH namiesto Telnet.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ak je to možné je lepšie použiť vždy Telnet namiesto SSH.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ak je to možné nie je dobré použiť ani Telnet ani SSH.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nezáleží na tom či použijeme SSH alebo Telnet.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži Telnet ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na vzdialené vytvorenie CLI relácie cez virtuálne rozhranie po sieti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na overenie používateľa, heslá a príkazy sa po sieti posielajú ako plain text.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Neslúži na nič.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na správu a počiatočnú konfiguráciu smerovača.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": " Čo platí pre používateľský mód ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožňuje obmedzený počet základných príkazov na monitorovanie, prístup do módu je predvolene bez autentifikácie.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vykonávanie príkazov na konfiguráciu a správu, \"enabled mód\" pretože vyžaduje príkaz enable.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vstup do módu príkazom configure terminal, zmeny v tomto móde ovplyvňujú prevádzku zariadenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vstup do módu príkazom configure user, zmeny v tomto móde neovplyvňujú prevádzku zariadenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo platí pre privilegovaný mód ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vykonávanie príkazov na konfiguráciu a správu,  od používateľa vyžaduje príkaz enable.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Umožňuje obmedzený počet základných príkazov na monitorovanie, prístup do módu je predvolene bez autentifikácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vstup do módu príkazom configure terminal, zmeny v tomto móde ovplyvňujú prevádzku zariadenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vstup do módu príkazom configure user, zmeny v tomto móde neovplyvňujú prevádzku zariadenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo platí pre globálny konfiguračný mód ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vstup do módu príkazom configure terminal, zmeny v tomto móde ovplyvňujú prevádzku zariadenia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vykonávanie príkazov na konfiguráciu a správu,  od používateľa vyžaduje príkaz enable.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Umožňuje obmedzený počet základných príkazov na monitorovanie, prístup do módu je predvolene bez autentifikácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vstup do módu príkazom configure user, zmeny v tomto móde neovplyvňujú prevádzku zariadenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Metóda doručovania správ unicast je definovaná ako....",
+      "AnswerList": [
+        {
+          "AnswerText": "Spôsob doručovania správy len jednému zariadeniu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Odosielanie správ všetkým zariadeniam bez ohľadu na to, či to chcú alebo nechcú prijímať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Odosielanie správ len tým zariadeniam, ktoré ich chcú.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsob doručovania správy všetkým zariadeniam v sieti.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Metóda doručovania správ broadcast je definovaná ako...",
+      "AnswerList": [
+        {
+          "AnswerText": "Odosielanie správ všetkým zariadeniam bez ohľadu na to, či to chcú alebo nechcú prijímať.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Spôsob doručovania správy všetkým zariadeniam v sieti, ktoré nechcú prijímať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Odosielanie správ len tým zariadeniam, ktoré ich chcú.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsob doručovania správy len jednému zariadeniu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Metóda doručovania správ multicast je definovaná ako...",
+      "AnswerList": [
+        {
+          "AnswerText": "Odosielanie správ len tým zariadeniam, ktoré ich chcú.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Spôsob doručovania správy všetkým zariadeniam v sieti, ktoré nechcú prijímať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Odosielanie správ všetkým zariadeniam bez ohľadu na to, či to chcú alebo nechcú prijímať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spôsob doručovania správy len jednému zariadeniu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Z akých vrstiev pozostáva model ISO/OSI ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Aplikačná, prezentačná, relačná, transportná, sieťová, linková, fyzická",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Aplikačná, transportná, prezentačná, internet, relačná, fyzická",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aplikačná, prezentačná, relačná, transportná, sieťová",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aplikačná, transportná, internet, network access ",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Z akých vrstiev pozostáva model TCP/IP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Aplikačná, transportná, internet, network access ",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Aplikačná, transportná, prezentačná, internet, relačná, fyzická",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aplikačná, prezentačná, relačná, transportná, sieťová",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aplikačná, prezentačná, relačná, transportná, sieťová, linková, fyzická",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

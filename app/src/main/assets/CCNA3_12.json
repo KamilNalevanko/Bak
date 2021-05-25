@@ -1,0 +1,410 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Ako charakterizujeme protokol OSPF ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dynamický smerovací protokol, ktorý spadá do skupiny protokolov IGP, ktoré pracujú v rámci jedného autonómneho systému.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Séria IOS príkazov, ktoré slúžia na filtrovanie sieťovej prevádzky na základne informácii v hlavičke paketu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Enkapsuluje rôzne protokoly na sieťovej vrstve a multicastuje a broadcastuje prevádzku.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Robí kontrolu konektivity na tretej vrstve s cieľovým zariadením s IP adresou.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ktoré z uvedených vlastností môžeme priradiť k OSPF ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Posiela updaty len po zmene v sieti, rýchla konvergencia dát",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Podporuje overovanie zariadení cez MD5, zabraňuje vzniku L2 slučiek",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Buduje strom, softvérovo vypína redundantné linky",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spravuje uzly v IP sieti, monitoruje a spravuje sieť",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Na čo slúži hello packet ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na vytváranie a udržiavanie susedstiev.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Potvrdenie o prijatí link – state updatu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje zoznam všetkých susedov zahrnutých v OSPF.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje skrátený výpis z link-state databázy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži link-state request ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Obsahuje požiadavku na doplnenie informácie do link-state databázy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Obsahuje kompletný výpis požadovanej informácie z link-state databázy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na vytváranie a udržiavanie susedstiev.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje skrátený výpis z link-state databázy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý paket z OSPF obsahuje kompletný výpis požadovanej informácie z link-state databázy ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Link-state update",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Link-state request",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hello packet",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Link-state acknowledgment",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo obsahuje routovacia tabuľka ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Siete do ktorých vie smerovať pakety, neobsahuje všetky siete z tabuľky topológie.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Obsahuje zoznam všetkých susedov zahrnutých v OSPF.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje link-state databázu, ktorá obsahuje informácie o všetkých sieťach zahrnutých v OSPF.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje len zoznam IPv6 adries.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký význam má hierarchická štruktúra využitím implementácie viacerých oblastí ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dostáva menej updatov, používa sa vo veľkých sieťach a flooding updaty nastávajú len v danej sieti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vďaka nej vie dostávať viac updatov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa len v malých sieťach aby sa vyhlo nadmernému pohlteniu flooding updatov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Kvôli väčšej prehľadnosti a efektívnejšiemu rozosielaniu paketov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností charakterizuje operačný stav protokolu OSPF down-state ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Router posiela Hello pakety",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Hello pakety sú prijímané od susedov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Routre doplnia informácie o voľbe",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Routre si vymieňaju DBD pakety",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností charakterizuje operačný stav protokolu OSPF init state ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Hello pakety sú prijímané od susedov",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Router posiela Hello pakety",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Routre doplnia informácie o voľbe",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Routre si vymieňaju DBD pakety",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností charakterizuje operačný stav protokolu OSPF exchange state ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Routre si vymieňaju DBD pakety",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Hello pakety sú prijímané od susedov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Routre doplnia informácie o voľbe",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Router posiela Hello pakety",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností charakterizuje operačný stav protokolu OSPF loading state ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Routre doplnia informácie o voľbe",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Router posiela Hello pakety",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hello pakety sú prijímané od susedov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Routre si vymieňaju DBD pakety",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ktorá z možností charakterizuje operačný stav protokolu OSPF full state ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Link-state databáza routra je synchronizovaná",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Router posiela Hello pakety",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hello pakety sú prijímané od susedov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Routre si vymieňaju DBD pakety",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Aký význam má smerovač DR ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je informovaný o zmene v sieti a túto informáciu posiela všetkým smerovačom.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Povoľuje zaplavovanie LS paketmi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži ako smerovač cez, ktorý sa preposiela len zašifrovaná komunikácia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži ako generátor LSA paketov.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Aká je predvolená hodnota priority smerovača pre všetky smerovače v OSPF ?",
+      "AnswerList": [
+        {
+          "AnswerText": "1",
+          "Correct": true
+        },
+        {
+          "AnswerText": "0",
+          "Correct": false
+        },
+        {
+          "AnswerText": "10",
+          "Correct": false
+        },
+        {
+          "AnswerText": "0",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akú funkciu plní pasívne rozhranie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Smerovač cez dané rozhranie prestane odosielať a prijímať hello pakety.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Smerovač odosiela prijíma hello pakety len cez dané rozhranie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovač cez dané rozhranie povoľuje zaplavovanie LS paketmi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovač cez dané rozhranie prestane odosielať  link-state updaty.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako často sa posielajú LSU pakety susedným smerovačom ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Každých 30 minút.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Každých 10 minút.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každých 20 minút.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každých 5 minút.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akým príkazom vieme zistiť či bol so susedným smerovačom nadviazané susedstvo ?",
+      "AnswerList": [
+        {
+          "AnswerText": "show ip ospf neighbor",
+          "Correct": true
+        },
+        {
+          "AnswerText": "show ping",
+          "Correct": false
+        },
+        {
+          "AnswerText": "show ip protocols",
+          "Correct": false
+        },
+        {
+          "AnswerText": "show ip interface brief",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo obsahuje database description ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Skrátený výpis z link-state databázy a používa sa na kontrolu a konvergencie zariadení.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Obsahuje link-state databázu, ktorá obsahuje informácie o všetkých sieťach zahrnutých v OSPF.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Potvrdenia o prijatí link-state updatov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje siete, do ktorých vie smerovač smerovať pakety.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Pre ktorý protokol je pravdivé, že má rýchlu konvergenciu dát a posiela updaty len po zmene v sieti ?",
+      "AnswerList": [
+        {
+          "AnswerText": "OSPF",
+          "Correct": true
+        },
+        {
+          "AnswerText": "CAPWAP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "DRLS",
+          "Correct": false
+        },
+        {
+          "AnswerText": "802.1X",
+          "Correct": false
+        }
+      ]
+    }
+    ,    {
+      "QuestionText": "Kedy je v sieti OSPF potrebná voľba DR a BDR ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Ak sú smerovače prepojené cez spoločnú sieť  (ethernet).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ak sú smerovače prepojené point-to-point.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ak žiadny smerovač v OSPF nevie vytvoriť susedstvo.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ak sú smerovače prepojené bezdrôtovo.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

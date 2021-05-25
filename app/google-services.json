@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "661418345917",
+    "project_id": "mobilnysprievodca",
+    "storage_bucket": "mobilnysprievodca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661418345917:android:f24e4f4f16f33b69273ed4",
+        "android_client_info": {
+          "package_name": "com.example.aps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661418345917-emu3kbrun5ojgn5a03hp1kp3mrk3v64t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb3o_p0we-C26YwlJqT8A1Zn0BJt6XoSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661418345917-emu3kbrun5ojgn5a03hp1kp3mrk3v64t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

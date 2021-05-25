@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="menu_tests">Testy</string>
+    <string name="menu_teory">Teória</string>
+    <string name="menu_profil">Profil</string>
+    <string name="menu_configurations">Konfigurácie</string>
+    <string name="Test_title1">Kurz CCNA 1</string>
+    <string name="Test_title2">Kurz CCNA 2</string>
+    <string name="Test_title3">Kurz CCNA 3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="title_activity_testy">Testy</string>
+    <string name="title_activity_testy_temy">TestyTemyActivity</string>
+    <string name="title_activity_testy_temy2">TestyTemy2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="title_activity_testy_temy3">TestyTemy3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profil">Profil</string>
+    <string name="title_activity_ccna1_postup">Ccna1Postup</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_ccna2_postup">Ccna2Postup</string>
+    <string name="title_activity_ccna3_postup">Ccna3Postup</string>
+    <string name="ccna1">Kurz CCNA 1</string>
+    <string name="ccna2">Kurz CCNA 2</string>
+    <string name="ccna3">Kurz CCNA 3</string>
+
+</resources>

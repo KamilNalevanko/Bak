@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priroda</title>
+    <meta name="description" content="Príroda">
+    <meta name="author" content="Kamil Nalevanko">
+    <link rel=StyleSheet href="normalize.css" />
+  <link rel="stylesheet" href="upravamoduly.css" type="text/css">
+</head>
+<header>
+    <h2 class="nadpisy">Základné sieťové pripojenie a komunikácia</h2>
+</header>
+<body>
+
+<section>
+<h2>Základné sieťové komponenty</h2>
+<p>
+    <dl>
+        <dt>Koncové zariadenia: </dt><br>
+        <dd>Sú to konečné zariadenia, ako napríklad počítač, mobil alebo server. Všetky majú jedinečnú IP adresu.</dd><br>
+    <div class="ciara2"></div><br>
+        <dt>Sieťové zariadenia: </dt><br>
+        <dd>Sú to zariadenia, ktoré prepájajú koncové zariadenia a siete. Regenerujú komunikačné signály a uchovávajú informácie o existujúcich sieťach a cestách.
+            Prenášajú správy na základe priorít a bezpečnostných nastavení. Pri chybe, oznamujú ostatným zariadeniam chybu, a vytvárajú alternatívne cesty.</dd>
+
+    <br>
+    <div class="ciara2"></div><br>
+    <dt>Sieťové médiá: </dt><br>
+    <dd>Sú to káble alebo signály ( bezdrôtové), po ktorých sú prenášané pakety.</dd>
+    <h3>Typy médií</h3>
+    <ul>
+        <li>Medené káble - dáta sú kódované do elektrických impulzov</li>
+        <li>Optické vlákna - dáta sú kódované do svetelných impulzov</li>
+        <li>Bezdrôtová sieť - dáta sú kódované do elektromagnetických vĺn na základe frekvenčnej modulácie</li>
+    </ul>
+</dl>
+    <div class="ciara"></div>
+    <h2>Rozdiel medzi fyzickou a logickou topológiou</h2>
+    <dl>
+        <dt>Fyzická topológia:</dt><br>
+        <dd>Zobrazuje fyzické prepojenia a identifikuje, ako sú prepojené koncové zariadenia a zariadenia infraštruktúry, napr. smerovače, prepináče a bezdrôtové pristúpové body.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Logická topológia:</dt><br>
+        <dd>Zobrazuje spôsob prenosu rámcov z jedného uzla na druhý, tieto logické cesty signálu sú definované L2 protokolmi.</dd>
+    </dl>
+    <div class="ciara"></div>
+    <h2>Charakteristika základných typov PC sietí</h2>
+    <dl>
+        <dt>PAN:</dt><br>
+        <dd>Osobná sieť.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Lokálna sieť (LAN):</dt><br>
+        <dd>Zahŕňa malú geografickú oblasť, kt. vlastní alebo prevádzkuje jednotlivec alebo IT oddelenie. Obvykle ju spravuje jedna organizácia alebo jednotlivec. Koncovým zariadeniam a zariadeniam sprostredkujúcim pripojenie, poskytuje vysokorýchlostnú šírku pásma.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Metropolitná sieť (MAN):</dt><br>
+        <dd>Zahŕňa väčšiu geografickú oblasť napríklad v rámci mesta,kraja.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>WAN sieť:</dt><br>
+        <dd>Zahŕňa širokú geografickú oblasť, ktorá typicky zahŕňa poskytovateľa telekomunikačných služieb. Zariadenia vo WAN väčšinou poskytujú pomalšiu rýchlosť spojenia medzi LAN sieťami.</dd><br>
+    </dl>
+    <div class="ciara2"></div><br>
+    <dl>
+        <dt>Konvergovaná sieť:</dt><br>
+        <dd>Umožňuje prenos viacerých služieb cez jedno prepojenie vrátane dát, hlasu a videa. Na rozdiel od špecializovaných sietí môžu konvergované siete poskytovať dáta, hlas a video medzi rôznymi typmi zariadení cez tú istú sieťovú infraštruktúru. Sieťová infraštruktúra používa rovnaký súbor pravidiel a štandardov.</dd><br></dl>
+    <div class="ciara"></div>
+    <h2>Škálovateľnosť, Bezpečnosť, Odolnosť voči chybám a Kvalita služieb</h2>
+    <dl>
+        <dt>Škálovateľnosť:</dt><br>
+        <dd>Škálovateľná sieť sa môže rýchlo a jednoducho rozšíriť (podpora nových používateľov a aplikácii) bez toho, aby ovplyvnila výkonnosť služieb pre existujúcich používateľov. Dizajnéri sietí dodržiavajú prijaté štandardy a protokoly.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Bezpečnosť:</dt><br>
+        <dd>Dva hlavné aspekty zabezpečenia siete sú bezpečnosť sieťovej infraštruktúry a informačná bezpečnosť.</dd><br>
+        <h3>Bezpečnosť sieťovej infraštruktúry</h3>
+        <ul>
+            <li>Fyzické zabezpečenie sieťových zariadení</li>
+            <li>Zabránenie neoprávnenému prístupu k SW pre správu na týchto zariadeniach.</li>
+        </ul>
+        <h3>Informačná bezpečnosť</h3>
+        <ul>
+            <li>Ochrana informácii alebo údajov prenášaných cez sieť</li>
+        </ul>
+
+        <h3>Ciele zabezpečenia siete:</h3>
+        <ol>
+            <li>Dôvernosť - údaje si vie prečítať len určený adresát</li>
+            <li>Integrita - ubezpečenie, že údaje neboli počas prenosu zmenené</li>
+            <li>Dostnupnosť - zabezpečenie včasného a spoľahlivého prístupu k údajom pre oprávnených používateľov</li>
+        </ol>
+        <div class="ciara2"></div><br>
+        <dt>Kvalita služieb</dt><br>
+            <dd>Hlasové a živé vysielanie videa má vyššie očakávania pre doručenie služby. Kvalita služby je primárny mechanizmus používaný na zabezpečenie spoľahlivého poskytovania obsahu pre všetkých používateľov. Vďaka zavedeným pravidlám kvality služieb môže smerovač ľahšie spravovať tok dát a hlasového prenosu.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Odolnosť voči chybám</dt><br>
+        <dd>Sieť odolná voči chybám obmedzuje vplyv poruchy obmedzením počtu postihnutých zariadení. Na odolnosť voči chybám je potrebných viac ciest. Spoľahlivé siete poskytujú redudanciu implementáciou siete s prepínaním paketov. Prepínanie paketov rozdeľuje komunikáciu na pakety, ktoré sú smerované po sieti. Každý paket by teoreticky mohol mať k cieľu inú cestu. Tento prístup nie je možný v sieťach s prepájaním obvodov, ktoré vytvárajú vyhradené obvody.
+        </dd>
+
+    </dl>
+    <div class="ciara"></div>
+    <h2>Konzola, SSH a Telnet</h2>
+   <dl>
+       <dt>Konzolové rozhranie:</dt><br>
+       <dd>Sériové rozhranie, ktoré sa používa predovšetkým na správu (počiatočná konfigurácia smerovača).</dd><br>
+       <div class="ciara2"></div><br>
+       <dt>Secure Shell (SSH):</dt><br>
+       <dd>Pre vzdialené a bezpečné vytvorenie CLI relácie po sieti. Overenie používateľa, heslá a príkazy odoslané cez sieť sú šifrované. Ak je to možné používajte vždy SSH namiesto Telnet.</dd>
+       <br><div class="ciara2"></div><br>
+       <dt>Telnet:</dt>
+       <dd>Pre vzdialené vytvorenie CLI relácie cez virtuálne rozhranie po sieti. Overenie používateľa, heslá a príkazy sa po sieti posielajú ako plain text.</dd>
+   </dl>
+    <div class="ciara"></div>
+    <h2>Módy IOS a ich základná charakteristika</h2>
+    <li>Režimy Cisco IOS používajú hierarchickú štruktúru príkazov. Každý režim je odlišný a používa sa na vykonanie konkrétnych úloh za použitia špecifickej skupiny príkazov, kt. sú k dispozícii iba v danom režime.</li>
+    <dl>
+       <dt>Používateľský mód:</dt><br>
+        <dd>Umožňuje len obmedzený počet základných príkazov na monitorovanie. Často sa označuje ako "režim len pre zobrazenie". Predvolene nie je na prístup do módu nastavená žiadna autentifikácia, ale mal by byť
+            zabezpečený.
+        </dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Privilegovaný mód:</dt><br>
+        <dd>Umožňuje vykonanie príkazov na konfiguráciu a správu. Často sa označuje ako "enable mód", pretože od používateľa vyžaduje príkaz enable. Predvolene nie je na prístup do módu nastavená žiadna autentifikácia, ale mal by byť zabezpečený.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Globálny konfiguračný mód:</dt><br>
+        <dd>Príkaz pre vstup do módu configure terminal. Zmeny vykonané v tomto móde ovplyvňujú prevádzku zariadenia.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Prechody:</dt><br>
+        <dd><b>exit</b> - do predchádzajúceho režimu</dd><br>
+        <dd><b>end</b> - na opustenie globálneho konfig. módu</dd><br>
+        <dd><b>Ctrl + Z</b> - funguje rovnako ako príkaz end</dd><br>
+    </dl>
+     <div class="ciara"></div>
+    <h2>Metódy doručovania správ (unicast, multicast, broadcast)</h2>
+    <dl>
+       <dt>Unicast:</dt> <br>
+        <dd>Spôsob doručovania správy len jednému zariadeniu.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Broadcast:</dt><br>
+        <dd>Odosielanie správ všetkým zariadeniam bez ohľadu na to, či chcú alebo nechcú prijímať.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Multicast</dt><br>
+        <dd>Odosielanie správ len tým zariadeniam, ktoré ich chcú.</dd><br>
+    </dl>
+    <div class="ciara"></div>
+    <h2>Modely OSI a TCP/IP</h2>
+    <dl>
+        <dt>Model OSI</dt>
+        <img src="osimodel.png" alt="OSI" class="responsive">
+        <ol>
+            <li><b>Fyzická</b> - Do tejto vrstvy patria fyzikálne a elektrikcé špecifikácie zariadení, patrí sem rozloženie pinov, špecifikácia napätí a typov kábla. Na fyzickej vrstve pracujú Hub-y a repeater.</li>
+            <br><li><b>Linková</b> - Poskytuje funkcionalitu a prostriedky na prenos dát medzi dvoma susednými
+                systémami. Poskytuje detekciu, prípadne opravenie chýb, ktoré sa vyskytnú na fyzickej vrstve. </li>
+            <br><li><b>Sieťová</b> - Stará sa o smerovanie, kontrolu toku dát, segmentáciu, desegmentáciu a
+                kontrolu chýb.</li>
+            <br><li><b>Transportná</b> - Má na starosti spoľahlivosť daného spojenia. Má za úlohu poskytnúť takú kvalitu
+                prenosu ako požadujú vyššie vrstvy.</li>
+            <br> <li><b>Relačná</b> - Poskytuje mechanizmus správy dialógu medzi aplikačnými procesmi koncového
+                používateľa. Táto vrstva nadväzuje a ukončuje TCP/IP relácie.</li>
+            <br><li><b>Prezentačná</b> - Transformuje dáta do podoby, ktorú používajú aplikácie (šifrovanie, konverzia,
+                komprimácia).</li>
+            <br> <li><b>Aplikačná</b> - Implementuje rozhranie pre aplikačné procesy a poskytuje im služby.
+            </li>
+        </ol>
+        <div class="ciara2"></div><br>
+        <dt>Model TCP/IP</dt><br>
+        <img src="TCPIP.png" alt="OSI" class="responsive2">
+
+        <ol>
+            <li><b>Aplikačná -</b> Reprezentuje dáta od pouivateľa a pridáva dátam príponu. Zodpovedá za šifrovanie, vytvorenie a udržiavanie spojenia.
+            </li>
+            <br><li><b>Transportná -</b> Zodpovedá za prenos dát od zdroja k cieľu.</li>
+            <br> <li><b>Internet -</b> Ip adresácia zariadení, smeruje pakety.</li>
+            <br> <li><b>Network Access -</b> Ukladá dáta na prenosové médium a generuje signál.</li>
+
+        </ol>
+
+    </dl>
+    <div class="ciara"></div>
+    <h2>Spôsob zmeny adries MAC/IP pri komunikácií zariadení</h2>
+    <li>Počas komunikácie sa IP adresa nemení a MAC adresa sa mení po každom vstupe do inej siete.</li>
+    <dl>
+        <dt>Ak sú zariadenia v tej istej Ethernetovej sieti</dt><br>
+        <dd>Použije sa priamo adresa cieľovej sieťovej karty. MAC adresy sú fyzicky vypálené na sieťovej karte. </dd>
+        <br><dd><b>Zdrojová MAC</b> adresa je adresa dátového spojenia alebo ethernetová MAC adresa zariadenia, ktoré odosiela rámec dátového spojenia so zapuzdreným paketom IP. </dd>
+        <br><dd><b>Cieľová MAC</b> adresa je adresa dátového spojenia prijímajúceho zariadenia.</dd><br>
+        <div class="ciara2"></div><br>
+        <dt>Ak je cieľové zariadenie v inej sieti.</dt><br>
+        <dd>Keď sú odosielateľ a prijímač paketu IP v rôznych sieťach, rámec ethernetového dátového spojenia nemožno odoslať priamo cieľovému hostiteľovi. Rámec sa musí odoslať na iné zariadenie známe ako smerovač alebo predvolená brána.</dd>
+        <br><dd><b>Zdrojová MAC</b> adresa je adresa odosielajúceho zariadenia.</dd>
+        <br><dd><b>Cieľová MAC</b> adresa je adresa predvolenej brány alebo smerovača.</dd><br>
+
+    </dl>
+
+
+
+</section>
+
+</body>
+</html>
+

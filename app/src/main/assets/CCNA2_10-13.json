@@ -1,0 +1,591 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre DDoS útok ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to koordinovaný DoS útok obrovského množstva zariadení s cieľom zhoršiť prístup k napadnutým stránkam.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúži na získanie neoprávneného prístupu útočníka ku koncovým zariadeniam.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Útok na servery alebo zariadenia v organizácii s cieľom ukradnúť dôverné informácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje bezpečné vzdialené pripojenie používateľa cez verejnú sieť do siete spoločnosti.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre malware ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Slúži na získanie neoprávneného prístupu útočníka ku koncovým zariadeniam.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to koordinovaný DoS útok obrovského množstva zariadení s cieľom zhoršiť prístup k napadnutým stránkam.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to útok na servery alebo zariadenia v organizácii s cieľom ukradnúť dôverné informácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje bezpečné vzdialené pripojenie používateľa cez verejnú sieť do siete spoločnosti.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre VPN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Poskytuje bezpečné vzdialené pripojenie používateľa cez verejnú sieť do siete spoločnosti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to koordinovaný DoS útok obrovského množstva zariadení s cieľom zhoršiť prístup k napadnutým stránkam.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to útok na servery alebo zariadenia v organizácii s cieľom ukradnúť dôverné informácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje stavovú kontrolu paketov, viditeľnosť siete a kontrolu aplikácií, systém NGIPS.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre NGFW ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Poskytuje stavovú kontrolu paketov, viditeľnosť siete a kontrolu aplikácií, systém    NGIPS a taktiež poskytuje pokročilú ochranu proti malvéru.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to koordinovaný DoS útok obrovského množstva zariadení s cieľom zhoršiť prístup k napadnutým stránkam.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zahŕňa AAA služby, vo väčších podnikoch môžu byť tieto služby začlenené do zariadenia, ktoré dokáže spravovať pravidlá prístupu pre širokú škálu používateľov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to útok na servery alebo zariadenia v organizácii s cieľom ukradnúť dôverné informácie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre NAC ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zahŕňa AAA služby, vo väčších podnikoch môžu byť tieto služby začlenené do zariadenia, ktoré dokáže spravovať pravidlá prístupu pre širokú škálu používateľov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to koordinovaný DoS útok obrovského množstva zariadení s cieľom zhoršiť prístup k napadnutým stránkam.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to útok na servery alebo zariadenia v organizácii s cieľom ukradnúť dôverné informácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje stavovú kontrolu paketov, viditeľnosť siete a kontrolu aplikácií, systém    NGIPS a taktiež poskytuje pokročilú ochranu proti malvéru.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúžia zariadenia ESA  a WSA ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na zabezpečenie koncových zariadení.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na šifrovanie komunikácie koncových zariadení.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje stavovú kontrolu paketov, viditeľnosť siete a kontrolu aplikácií.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na prideľovanie IPv4 adries.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pre ESA pravdivé ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to zariadenie, ktoré monitoruje SMTP protokol.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Poskytuje stavovú kontrolu paketov, viditeľnosť siete a kontrolu aplikácií.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomáha organizáciám so zabezpečením a kontrolou webovej prevádzky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Kombinuje ochranu pred malvérom, kontrolu aplikácií a pravidiel prijateľného používania a reportovanie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pre WSA pravdivé ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Kombinuje ochranu pred malvérom, kontrolu aplikácií, pravidiel prijateľného používania a reportovanie.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to zariadenie, ktoré monitoruje SMTP protokol.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje stavovú kontrolu paketov, viditeľnosť siete a kontrolu aplikácií.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Blokuje prístup k nedávno infikovaným stránkam, šifruje obsah odchádzajúcich emailov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená AAA ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Autentifikácia, autorizácia, accounting",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Autentifikácia, autorizácia, asserting",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Autentifikácia, analýza, autorizácia",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Analýza, autorizácia, accounting",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži accounting ? ",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to revízia toho, čo daná osoba vykonala, keď bola v sieti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Automatické priradenie práv a obmedzení po autentifikácií používateľa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Popisuje prístup používateľa k sieti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na komunikáciu s AAA serverom.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre protokol 802.1X ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Protokol na port – based kontrolu prístupu a autentifikáciu, zakazuje neoprávneným PC pripojiť sa na LAN cez verejné dostupné porty.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zbiera a reportuje dáta o používaní, ktoré môžu byť použité na audit.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to dynamický smerovací protokol, ktorý spadá do skupiny protokolov IGP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ochraňuje a autentifikuje IP pakety medzi zdrojom a cieľom.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ak sa útočník snaží zaplniť tabuľku MAC adries a generuje veľa rámcov s rôznymi MAC adresami, o aký typ útoku sa jedná ?",
+      "AnswerList": [
+        {
+          "AnswerText": "MAC address flooding",
+          "Correct": true
+        },
+        {
+          "AnswerText": "VLAN Hopping",
+          "Correct": false
+        },
+        {
+          "AnswerText": "MAC address attack",
+          "Correct": false
+        },
+        {
+          "AnswerText": "MAC addres spoofing",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ak sa útočník tvári, že je prepínač aby vyjednal trunk a mal tak prístup do všetkých VLAN, o aký typ útoku sa jedná ?",
+      "AnswerList": [
+        {
+          "AnswerText": "VLAN Hopping",
+          "Correct": true
+        },
+        {
+          "AnswerText": "VLAN Double-Tagging",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN address attack",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN addres spoofing",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ak sa útočník nachádza vo VLAN 10 a chce útočiť na VLAN 20, tak do rámca prilepí tag 10 aj tag 20, o aký typ útoku sa jedná ?",
+      "AnswerList": [
+        {
+          "AnswerText": "VLAN Double – Tagging",
+          "Correct": true
+        },
+        {
+          "AnswerText": "VLAN Hopping",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN address attack",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN address spoofing",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre útok typu DHCP Starvation ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Cieľom je vytvoriť DoS pre pripájajúcich sa klientov, pomocou špec. nástrojov je možné pozrieť sa na množinu priraditeľných IP adries.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Falšuje DHCP správy, do siete, kde je DHCP server vloží útočník ešte jeden, ktorý ale poskytuje falošné, nevalidné nastavenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Útočník sa nachádza vo VLAN 10 a chce útočiť na VLAN 20, tak do rámca prilepí tag 10 aj 20.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Útočník generuje veľa rámcov s rôznymi MAC adresami, zaplní tak tabuľku MAC adries a z prepínača sa stane obyčajný hub.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako definujeme STP útoky  ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Falošný prepínač si nastaví najlepšiu prioritu a MAC adresu, aby sa stal root prepínačom, takže väčšina dát bude prechádzať cez neho.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "V sieti je útočník, kt. môže pravidelne posielať falošné ARP správy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Útočník sa tvári ako iné zariadenie v sieti, používa jeho IP/MAC adresu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Útočník sa nachádza vo VLAN 10 a chce útočiť na VLAN 20, tak do rámca prilepí tag 10 aj 20.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké útoky rieši DHCP Snooping ?",
+      "AnswerList": [
+        {
+          "AnswerText": "DHCP starvation, DHCP spoofing",
+          "Correct": true
+        },
+        {
+          "AnswerText": "DHCP starvation, DHCP attack",
+          "Correct": false
+        },
+        {
+          "AnswerText": "DHCP spoofing, ARP útok",
+          "Correct": false
+        },
+        {
+          "AnswerText": "DHCP starvation, STP útok",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké útoky rieši IPSG ?",
+      "AnswerList": [
+        {
+          "AnswerText": "MAC a IP address spoofingu",
+          "Correct": true
+        },
+        {
+          "AnswerText": "DHCP starvation, DHCP spoofing",
+          "Correct": false
+        },
+        {
+          "AnswerText": "STP útok, ARP útok",
+          "Correct": false
+        },
+        {
+          "AnswerText": "IP address spoofing, STP útok",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá sieť má krátky dosah do 10 metro a je založená na 805.15 štandarde ?",
+      "AnswerList": [
+        {
+          "AnswerText": "WPAN",
+          "Correct": true
+        },
+        {
+          "AnswerText": "WMAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "WWAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "WLAN",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá sieť pokrýva obrovskú oblasť a umožňuje komunikáciu na národnej alebo globálne úrovni ?",
+      "AnswerList": [
+        {
+          "AnswerText": "WWAN",
+          "Correct": true
+        },
+        {
+          "AnswerText": "WPAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "WMAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "WLAN",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak je prístupový bod nakonfigurovaný cez terminál alebo GUI, o aký typ prístupového bodu sa jedná ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Autonómny prístupový bod",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Kontrolérom – ovládaný prístupový bod",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Automatický prístupový bod",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Statický prístupový bod",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak je zariadenie pripojené do siete cez prístupový bod o aký mód ide ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Infrastructure mód",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Tethering mód",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ad hoc mód",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Autonómny mód",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdenie je pravdivé pre Tethering mód ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to hotspot vytvorený na smartfóne alebo tablete s prístupom na mobilné dáta.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Pripojenie zariadení peer – to – peer, bez prístupových bodov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pripojenie zariadení do siete cez prístupový bod.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenie je pripojené pomocou konzolového kábla.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako funguje pasívny mód objavovania  AP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prístupový bod periodicky broadcastovo vysiela údaje o sieti v tzv. beacon framoch.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenie, ktoré sa chce pripojiť musí poznať SSID a broadcastovo posiela tzv. Probe request.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenie vysiela Probe request bez SSID.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Takýto mód neexistuje.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako funguje aktívny mód objavovania  AP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenie, ktoré sa chce pripojiť musí poznať SSID a broadcastovo posiela tzv. Probe request.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Prístupový bod periodicky broadcastovo vysiela údaje o sieti v tzv. beacon framoch.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenie vysiela Probe request bez SSID.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Takýto mód neexistuje.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži protokol CAPWAP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožňuje bezdrôtovým LAN kontrolérom spravovať viacero prístupových bodov a bezdrôtových sietí.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúži na to aby v peer – to - peer  sieti zistili prípadnú kolíziu medzi zariadeniami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na to aby v bezdrôtovej sieti zistili prípadnú kolíziu medzi zariadeniami a zistili kedy môžu zariadenia vysielať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šifruje komunikáciu medzi prístupovým bodom a kontrolérom, ochrana proti Man- In- The – Middle útokom.",
+          "Correct": false
+        }
+      ]
+    }
+    ,{
+      "QuestionText": "Ktorý protokol šifruje komunikáciu medzi prístupovým bodom a kontrolérom ?",
+      "AnswerList": [
+        {
+          "AnswerText": "DTLS",
+          "Correct": true
+        },
+        {
+          "AnswerText": "CAPWAP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "802.1X",
+          "Correct": false
+        },
+        {
+          "AnswerText": "STP",
+          "Correct": false
+        }
+      ]
+    }
+    ,{
+      "QuestionText": "Ako môžeme zabrániť odpočúvaniu dát v bezdrôtovej sieti ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dáta zašifrujeme predtým, než ich pošleme bezdrôtovým médiom.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Použitím efektívnych techník autentifikácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nakonfigurovaním WLC kontrolérov aby dodržiavali politiky zamedzujúce takéto útoky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Identifikovaním legitímnych zariadení v sieti.",
+          "Correct": false
+        }
+      ]
+    },{
+      "QuestionText": "V čom spočíva Enterprise autentifikácia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vyžaduje RADIUS server, poskytuje dodatočnú vrstvu bezpečnosti, najprv sa používatelia autentifikujú pomocou RADIUS servera a následne pomocou 802.1X štandardu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Užívatelia sa autentifikujú pomocou prezdieľaného kľúča.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na autentifikáciu poskytuje mechanizmy ako WEP, WPA, WPA2, WPA3.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používateľ používa na prihlásenie externý USB kľúč s heslom.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

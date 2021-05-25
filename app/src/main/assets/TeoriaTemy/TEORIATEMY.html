@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".druhy").hide();
+        $(".treti").hide();
+      $(".home").click(function(){
+        $(".prvy").show();
+        $(".druhy").hide();
+        $(".treti").hide();
+      });
+      $(".blog").click(function(){
+        $(".druhy").show();
+        $(".prvy").hide();
+        $(".treti").hide();
+      });
+      $(".code").click(function(){
+        $(".treti").show();
+        $(".prvy").hide();
+        $(".druhy").hide();
+      });
+
+     
+    });
+    
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Príroda</title>
+    <meta name="description" content="Príroda">
+    <meta name="author" content="Kamil Nalevanko">
+    <link rel=StyleSheet href="normalize.css" />
+    <link rel=StyleSheet href="upravaTlac.css"  media="print"/>
+    <link rel="stylesheet" href="uprava.css" type="text/css">
+    <dscript src="https://kit.fontawesome.com/a076d05399.js"></dscript>
+</head>
+<body>
+    
+    <div class="container">
+        <input type="radio" name="s" id="home" checked>
+        <input type="radio" name="s" id="blog">
+        <input type="radio" name="s" id="code">
+        <nav>
+          <div class="slider"></div>
+          <label class="home" for="home">
+          <i class="fas fa-home"></i>Ccna1
+          </label>
+          <label class="blog" for="blog">
+          <i class="fas fa-blog"></i>Ccna2
+          </label>
+          <label class="code" for="code">
+            <i class="fas fa-code"></i>Ccna3
+          </label>
+        </nav>
+    </div>
+    
+
+      <div class="prvy">  
+        <a href="Modul 1 - 3.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 1 - 3</b></div><div class="textnadpis2">Základné sieťové pripojenie a komunikácia</div></a>
+        <a href="Modul 4 - 7.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 4 - 7</b></div><div class="textnadpis2">Koncepty Ethernetu</div></a>
+        <a href="Modul 8 - 10.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 8 - 10</b></div><div class="textnadpis2">Komunikácia medzi sieťami</div></a>
+        <a href="Modul 11 - 13.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 11 - 13</b></div><div class="textnadpis2">IP Adresácia</div></a>
+        <a href="Modul 14 - 15.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 14 - 15</b></div><div class="textnadpis2">Komunikácia sieťových aplikácií</div></a>
+        <a href="Modul 16 - 17.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 16 - 17</b></div><div class="textnadpis2">Budovanie a zabezpečenie malej siete</div></a>
+    </div>
+    
+    <div class="druhy">  
+    <a href="Modul 1 - 4.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 1 - 4</b></div><div class="textnadpis2">Koncept prepínania, Vlan-y a interVlan smerovanie</div></a>
+    <a href="Modul 5 - 6.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 5 - 6</b></div><div class="textnadpis2">Redudantné siete</div></a>
+    <a href="Modul 7 - 9.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 7 - 9</b></div><div class="textnadpis2">Dostupné a spoľahlivé siete</div></a>
+    <a href="Modul 10 - 13.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 10 - 13</b></div><div class="textnadpis2">L2 zabezpečenie a Wlan-y</div></a>
+    <a href="Modul 14 - 16.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 14 - 16</b></div><div class="textnadpis2">Smerovacie koncepty a konfigurácia</div></a>
+</div>
+    
+
+<div class="treti">
+    <a href="Modul 1 - 2.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 1 - 2</b></div><div class="textnadpis2">Koncepty OSPF a konfigurácie</div></a>
+    <a href="Modul 3 - 5.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 3 - 5</b></div><div class="textnadpis2">Zabezpečenie siete</div></a>
+    <a href="Modul 6 -8.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 6 - 8</b></div><div class="textnadpis2">Koncepty WAN</div></a>
+    <a href="Modul 9 - 12.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 9 - 12</b></div><div class="textnadpis2">Optimalizácia monitorovanie, odstraňovanie problémov so sieťami</div></a>
+    <a href="Modul 13 - 14.html" class="nadpis1"><img src="notes_icon.png" class= "obraz"><div class="textnadpis1"><b>Moduly 13 - 14</b></div><div class="textnadpis2">Rozvíjajúce sa sieťové technológie</div></a>
+    </div>
+    
+
+</body>
+</html>

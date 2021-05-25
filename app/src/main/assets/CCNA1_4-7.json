@@ -1,0 +1,1082 @@
+{
+  "QuestionList": [ 
+    {
+      "QuestionText": "Označte pravdivé tvrdenie.",
+      "AnswerList": [
+        {
+          "AnswerText": "VLAN je virtuálna LAN sieť, ktorá rozdelí prepínač na viac logických prepínačov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "VLAN neumožňuje súčasné vytvorenie viacerých VLAN.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia vo VLAN si sú vedomé o existencii VLAN.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "VLAN medzi sebou nie sú izolované a pakety medzi  VLAN môžu prechádzať len cez smerovač. ",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Označte chybné tvrdenie.",
+      "AnswerList": [
+        {
+          "AnswerText": "VLAN neumožňuje súčasné vytvorenie viacerých VLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Delenie L2 siete sa uskutočňuje vo vnútri L2 zariadenia, zvyčajne ide o prepínač.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každá VLAN je broadcast doména , kt. môže zahŕňať viacero fyzických segmentov VLAN siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia vo VLAN si nie sú vedomé o existencii VLAN.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Akú výhodu nám poskytuje VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zníženie nákladov, nie je nutné prerobiť fyzickú topológiu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Neposkytuje nám žiadne výhody.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Odosielanie informácii na všetky porty aj tie, ktoré nie sú priradené k danej VLAN.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Väčšie broadcastové domény.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké typy VLAN poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Predvolená/defaultná VLAN, dátová VLAN, Natívna VLAN, Manažmentová VLAN, Hlasová VLAN",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Hlasová VLAN, Manažmentová VLAN, fyzická VLAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Natívna VLAN, dátová VLAN, fyzická VLAN, manažmentová VLAN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prenosová VLAN, dátová VLAN, Fyzická VLAN",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností opisuje Natívnu VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Obsahuje neoznačenú prevádzku, štandardne je to VLAN 1, používa sa pri trunku, umiestňujú sa v nej informácie od zariadenia, kt. nie sú v žiadnej inej VLAN-e",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vytvára sa pre špecifické skupiny používateľov a používa sa pre koncových používateľov, kt. najčastejšie prenášajú súbory.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa na prenos IP telefónie a oddeľuje sa od dátovej VLAN-y.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je vytvorená pre prenos prevádzky pre správu siete, vrátane SSH, SNMP, Syslog atď., používa sa na správu a konfiguráciu sieťových zariadení.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností opisuje Dátovú VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vytvára sa pre špecifické skupiny používateľov a používa sa pre koncových používateľov, kt. najčastejšie prenášajú súbory.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Používa sa na prenos IP telefónie a oddeľuje sa od dátovej VLAN-y.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je vytvorená pre prenos prevádzky pre správu siete, vrátane SSH, SNMP, Syslog atď., používa sa na správu a konfiguráciu sieťových zariadení.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa ako náhrada natívnej VLAN-y.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností opisuje Manažmentovú VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je vytvorená pre prenos prevádzky pre správu siete, vrátane SSH, SNMP, Syslog atď., používa sa na správu a konfiguráciu sieťových zariadení.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Používa sa na prenos IP telefónie a oddeľuje sa od dátovej VLAN-y.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vytvára sa pre špecifické skupiny používateľov a používa sa pre koncových používateľov, kt. najčastejšie prenášajú súbory.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa ako náhrada dátovej VLAN-y",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá z možností opisuje Hlasovú VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Používa sa na prenos IP telefónie a oddeľuje sa od dátovej VLAN-y.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vytvára sa pre špecifické skupiny používateľov a používa sa pre koncových používateľov, kt. najčastejšie prenášajú súbory.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa ako náhrada dátovej VLAN-y",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je vytvorená pre prenos prevádzky pre správu siete, vrátane SSH, SNMP, Syslog atď., používa sa na správu a konfiguráciu sieťových zariadení.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená značenie rámcov (Tagovanie) ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Proces pridávania VLAN identifikátora do hlavičky rámca, používa sa na správne posielanie viacerých VLAN rámcov prostredníctvom trunkovej linky.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Proces definovania štruktúry hlavičky tagu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Proces odoberania VLAN identifikátora z hlavičky rámca, používa sa na správne posielanie viacerých VLAN rámcov prostredníctvom trunkovej linky.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prenos IP telefónie a oddeľovanie sa od dátovej VLAN-y.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "V akom móde musí byť rozhranie, ktoré prenáša viacero VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Trunk",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Access",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Restrict",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Shutdown",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Rozhranie patriace do práve jednej VLAN je v móde ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Access",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Trunk",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Restrict",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Shutdown",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Načo slúži natívna VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Obsahuje neoznačenú prevádzku, rámce bez označenia zostávajú neznačené a sú pri preposielaní umiestnené do natívnej VLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúži na to aby sa cez ňu posielali tagované rámce.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obsahuje len označenú prevádzku, rámce bez označenia sú zahodené.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na vytvorenie trunk rozhrania na základe stavu portu.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Aký je normálny VLAN rozsah ?",
+      "AnswerList": [
+        {
+          "AnswerText": "1-1005",
+          "Correct": true
+        },
+        {
+          "AnswerText": "1002 – 1005",
+          "Correct": false
+        },
+        {
+          "AnswerText": "100-999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "1-999",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Aký je rozsah VLAN-y s rozšíreným rozsahom ?",
+      "AnswerList": [
+        {
+          "AnswerText": "1006-4096",
+          "Correct": true
+        },
+        {
+          "AnswerText": "1-1999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "1-999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "1-1005",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži protokol DTP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožňuje vytvárať trunk na základe stavu portu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Umožňuje vytvárať VLAN-y",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomáha kontrolovať, či je daná IP adresa dosiahnuteľná alebo nie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa na objavovanie priamo pripojených Cisco zariadení.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké tri spôsoby smerovania dát medzi VLAN poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Tradičné, router-on-a-stick, smerovanie použitím L3 prepínača",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Router-on-a-stick, priame, smerovanie použitím L3 prepínač",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Tradičné, smerovanie použitím L2 prepínača, router-on-a-stick",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Priame smerovanie, smerovanie použitím L",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre router-on-a-stick ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Používa sa len jedno fyzické rozhranie smerovača, nakonfigurované ako trunk, vytvárajú sa logické podrozhrania.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Porty koncových zariadení sú accessové a v príslušnej VLAN-e, linka medzi switchmi je trunková z oboch strán.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Linka medzi prepínačmi je trunková z oboch strán.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každá VLAN je pripojená k inému rozhraniu fyzického smerovača.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre smerovanie použitím L3 prepínača ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)Porty koncových zariadení sú accessové a v príslušnej VLAN-e, linka medzi switchmi je trunková z oboch strán.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Linka medzi prepínačmi je trunková z oboch strán.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa len jedno fyzické rozhranie smerovača, nakonfigurované ako trunk, vytvárajú sa logické podrozhrania.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Každá VLAN je pripojená k inému rozhraniu fyzického smerovača.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Pomocou akého príkazu sú nakonfigurované podrozhrania router-on-a-stick, tak aby podporovali viac VLAN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Encapsulation dot1q [číslo VLAN-y]",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Switchport trunk encapsulation dot1q",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Switchport access vlan [číslo VLAN-y]",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Switchport mode trunk",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení charakterizuje Fyzickú vrstvu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to najnižšia vrstva v OSI modeli, poskytuje prostriedky na prenos bitov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to najvyššia vrstva v OSI modeli, poskytuje prostriedky na prenos bitov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prijíma celý signal z linkovej vrstvy a zákoduje ho ako sériu rámcov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to najnižšia vrstva v OSI modeli, poskytuje prostriedky na prenos rámcov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená šírka pásma ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to kapacita média na prenos údajov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Praktické meranie prenosu bitov po médiu počas daného časového obdobia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Čas za ktorý sa paket dostane zo zdroja do cieľa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to kapacita média v momente kedy prenáša údaje.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená priepustnosť ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Praktické meranie prenosu bitov po médiu počas daného časového obdobia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to kapacita média na prenos údajov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Čas za ktorý sa paket dostane zo zdroja do cieľa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to kapacita média v momente kedy prenáša údaje.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo znamená oneskorenie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Praktické meranie prenosu bitov po médiu počas daného časového obdobia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Je to kapacita média na prenos údajov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Čas za ktorý sa paket dostane zo zdroja do cieľa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Je to kapacita média v momente kedy prenáša údaje.",
+          "Correct": false
+        }
+      ]
+    },    
+	{
+      "QuestionText": "Aké typy káblov poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Koaxial, UTP, STP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Koaxial, UTS , STP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "UTP, STP , PVT",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koaxial, TUP, STP",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Ktoré z tvrdení platí pre Koaxiálny kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Kábel zložený z vodiča obaleného izolačnou vrstvou, kovovou tieniacou vrstvou a celkovou izoláciou.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Kábel zložený z vodiča obaleného len kovovou tieniacou vrstvou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Tienená krútená dvojlinka, tienené sú aj jednotlivé páry drôtov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Netienená krútená dvojlinka, zo štyroch párov farebne odlíšených vodičov.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Ktoré z tvrdení platí pre UTP kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Netienená krútená dvojlinka, zo štyroch párov farebne odlíšených vodičov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Tienená krútená dvojlinka, tienené sú aj jednotlivé páry drôtov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Kábel zložený z vodiča obaleného izolačnou vrstvou, kovovou tieniacou vrstvou a celkovou izoláciou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Kábel zložený z vodiča obaleného len kovovou tieniacou vrstvou.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Ktoré z tvrdení platí pre STP kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Tienená krútená dvojlinka, tienené sú aj jednotlivé páry drôtov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Netienená krútená dvojlinka, zo štyroch párov farebne odlíšených vodičov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Kábel zložený z vodiča obaleného izolačnou vrstvou, kovovou tieniacou vrstvou a celkovou izoláciou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Kábel zložený z vodiča obaleného len kovovou tieniacou vrstvou.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Akými typmi káblov realizujeme pripojenie zariadení ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Konzolový, Priamy, Krížený, Sériový",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Konzolový, Priamy, Točený, Sériový ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Priamy, Krížený, Sériový, Pararelný",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Priamy, Krížený, Sériový, Točený",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Na čo sa používa Konzolový kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na konfiguráciu sieťového zariadenia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na dátové prepojenie zariadení, kt. sa nachádzajú v rôznych skupinách.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dátove prepojenie dvoch sériových rozhraní na smerovačoch.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dátove prepojenie zariadení, kt. sa nachádzajú v rovnakej skupine.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Na čo sa používa Priamy kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na dátové prepojenie zariadení, kt. sa nachádzajú v rôznych skupinách.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na konfiguráciu sieťového zariadenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dátove prepojenie dvoch sériových rozhraní na smerovačoch.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dátove prepojenie zariadení, kt. sa nachádzajú v rovnakej skupine.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Na čo sa používa Krížený kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na dátove prepojenie zariadení, kt. sa nachádzajú v rovnakej skupine.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na dátove prepojenie dvoch sériových rozhraní na smerovačoch.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dátové prepojenie zariadení, kt. sa nachádzajú v rôznych skupinách.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na konfiguráciu sieťového zariadenia.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Na čo sa používa Sériový kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na dátove prepojenie dvoch sériových rozhraní na smerovačoch.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na dátove prepojenie zariadení, kt. sa nachádzajú v rovnakej skupine.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na dátové prepojenie zariadení, kt. sa nachádzajú v rôznych skupinách.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na konfiguráciu sieťového zariadenia.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Ktorá vlastnosť charakterizuje optický kábel ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prenášajú dáta na dlhšie vzdialenosti, bity sú kódované ako svetelné impulzy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Prenášajú dáta na krátke vzdialenosti, bity sú kódované ako elektrické impulzy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prenášajú signály bez útlmu, sú tuhé ale extrémne tenké.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prenášajú dáta ako elektrické impulzy.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Ktoré z tvrdení charakterizuje bezdrôtový prenos ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prenos elektromagnetických signálov pomocou rádiových alebo mikrovlnných frekvencii.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Prenášanie dát na dlhšie vzdialenosti, cez sklenené vlákna.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prenášanie dát na krátke vzdialenosti, cez sklenené vlákna.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prenos elektromagnetických signálov pomocou medeného kábla.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Aká je základná charakteristika linkovej vrstvy ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pripravuje dáta pre fyzickú vrstvu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Spracováva dáta, nasleduje po fyzickej vrstve.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prijíma dáta a posiela ich ďalej.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Selektuje dáta na základe informácii v rámcoch.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Na aké dve vrstvy sa delí linková vrstva ?",
+      "AnswerList": [
+        {
+          "AnswerText": "LLC a MAC",
+          "Correct": true
+        },
+        {
+          "AnswerText": "MAC a LLP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "PLC a MAC",
+          "Correct": false
+        },
+        {
+          "AnswerText": "MAC a PPL",
+          "Correct": false
+        }
+      ]
+    },    
+	{
+      "QuestionText": "Čo robí vrstva LLC ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Komunikuje so sieťovou vrstvu a určuje, kt. protokol sieťovej vrstvy sa používa pre rámec.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Definuje procesy pre prístup k médiu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Komunikuje s ethernetom pri odosielaní a prijímaní rámcov po kábli.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Komunikuje s bezdrôtovými technológiami.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Čo robí vrstva MAC ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Definuje procesy pre prístup k médiu a poskytuje L2 vrstvy a prístup k rôznym sieťovým technológiám.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Komunikuje so sieťovou vrstvou.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Určuje, kt. protokol sieťovej vrstvy sa používa pre rámec.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Umožňuje viacerým L3 protokolom používať rovnaké sieťové rozhranie.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Kedy dochádza v sieti ku kolízii ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Ak dve zariadenia vysielajú súčasne.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ak zariadenie dostane zle priradenú IP.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ak ani jedno zariadenie v sieti nevysiela.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ak všetky zariadenia v sieti vysielajú súčasne.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Čo sa stane s údajmi posielanými počas kolízie ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Sú poškodené a musia byť znova poslané.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Sú nenávratne poškodené a zahodia sa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Stratia sa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posielajú sa ďalej bez straty.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Čo urobí zariadenie ak v sieti nastane kolízia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Počká náhodnú dobu a potom pokračuje vo vysielaní.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nerušene vysiela ďalej.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenie prestane vysielať na 10 sekúnd.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenie prestane vysielať.",
+          "Correct": false
+        }
+      ]}
+    ,
+
+	{
+      "QuestionText": "Aké WAN topológie poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Mesh, Hub and Spoke, Point-to-Point",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Kruh, Hviezda, Mesh",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Point-to-point, Hub and Spoke, Kruh",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Kruh, Hub and Spoke, Point-to-Point",
+          "Correct": false
+        }
+      ]
+    }
+	  ,    
+	{
+      "QuestionText": "Aké LAN topológie poznáme ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Hviezda, Rozšírená hviezda, Zbernica, Kruh",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Mesh, Hub and Spoke, Point-to-Point",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hviezda, Rozšírená hviezda, Zbernica, Mesh",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Mesh, Hub and Spoke, Zbernica",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Aká je definícia topológie Point-to-Point ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Trvalé prepojenie dvoch koncových bodov.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Koncové zariadenia sú pripojené k centrálnemu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koncové systémy sú pripojené k príslušnému susedovi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa v starších sieťach, všetky koncové systémy sú navzájom spojené.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Aká je definícia topológie Mesh ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vysoká dostupnosť, každý koncový systém je prepojený s každým iným susedom.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Koncové zariadenia sú pripojené k centrálnemu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koncové systémy sú pripojené k príslušnému susedovi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa v starších sieťach, všetky koncové systémy sú navzájom spojené.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Aká je definícia topológie Hub and Spoke ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Podobná hviezdicovej topológii, prepája pobočky pomocou prepojenia typu point-to-point.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vysoká dostupnosť, každý koncový systém je prepojený s každým iným susedom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koncové systémy sú pripojené k príslušnému susedovi.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa v starších sieťach, všetky koncové systémy sú navzájom spojené.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Aká je definícia topológie Kruh ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Koncové systémy sú pripojené k príslušnému susedovi.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vysoká dostupnosť, každý koncový systém je prepojený s každým iným susedom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koncové zariadenia sú pripojené k centrálnemu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa v starších sieťach, všetky koncové systémy sú navzájom spojené.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Aká je definícia topológie Zbernica ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Používa sa v starších sieťach, všetky koncové systémy sú navzájom spojené.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Vysoká dostupnosť, každý koncový systém je prepojený s každým iným susedom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koncové zariadenia sú pripojené k centrálnemu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Koncové systémy sú pripojené k príslušnému susedovi.",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Aké sú dve základné nastavenia prepínača pre duplexný mód ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Polovičný, Plný ",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Trojitý,  Plný ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dvojitý, Polovičný",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Plný, Dvojitý",
+          "Correct": false
+        }
+      ]
+    }
+	,    
+	{
+      "QuestionText": "Ako by ste definovali polovičný duplex ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Obe zariadenia môžu vysielať a prijímať na médiu, nie súčasne.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "L2 vrstva predpokladá, že médium je vždy k dispozícii.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Žiadne médium nemôže vysielať ani prijímať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obe zariadenia môžu vysielať a prijímať na médiu naraz.",
+          "Correct": false
+        }
+      ]
+    },    
+	{
+      "QuestionText": "Ako by ste definovali plný duplex  ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Obe zariadenia môžu vysielať a prijímať na médiu naraz.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Obe zariadenia môžu vysielať a prijímať na médiu, nie súčasne.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Žiadne médium nemôže vysielať ani prijímať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Obe zariadenia môžu vysielať a prijímať na médiu, nie súčasne.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

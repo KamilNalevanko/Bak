@@ -1,0 +1,449 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Na čo slúži mechanizmus NAT ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Poskytuje preklad súkromných adries na verejné adresy.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zisťuje kedy a ako môžu zariadenia v sieti vysielať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na inštaláciu a manipuláciu s konfiguráciami.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje preklad verejných adries na súkromné adresy.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre inside local ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vnútornej siete, väčšinou privátna IPv4 adresa.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vonkajšej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vonkajšej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vnútornej siete.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre inside global ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vonkajšej siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vnútornej siete, väčšinou privátna IPv4 adresa.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vonkajšej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vnútornej siete.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre outside global ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vonkajšej siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vnútornej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vonkajšej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vnútornej siete, väčšinou privátna IPv4 adresa.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre outside local ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vnútornej siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Adresa cieľa z pohľadu vonkajšej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vonkajšej siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresa zdroja z pohľadu vnútornej siete, väčšinou privátna IPv4 adresa.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký typ NAT priradzuje 1 súkromnú adresu k 1 verejnej ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Statické NAT",
+          "Correct": true
+        },
+        {
+          "AnswerText": "PAT",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dynamické PAT",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dynamické NAT",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Pri akom type NAT definujeme rozsah súkromných a verejných adries, ktoré sa potom mapujú dynamicky ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dynamické NAT",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Statické NAT",
+          "Correct": false
+        },
+        {
+          "AnswerText": "PAT",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dynamické PAT",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Pri akom type NAT sa priradzujú viaceré súkromné adresy na 1 verejnú ?",
+      "AnswerList": [
+        {
+          "AnswerText": "PAT",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Statické NAT",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dynamické PAT",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dynamické NAT",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké výhody má preklad adries ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Šetrí adresovaciu schému tým, že dovoľuje privatizáciu intranetov zvyšuje flexibilitu pripojenia na verejnú sieť.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Znižuje flexibilitu pripojenia na verejnú sieť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Podporuje šifrovacie funkcie ako IPsec, SSL.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zvyšuje šírku pásma vzdialeného pripojenia.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akým príkazom zobrazíme aktívne preklady NAT na hraničnom smerovači ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Show ip nat translations",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Show translations",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Debug ip nat translations",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Show nat",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aká je nevýhoda NAT ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Stráca sa end-to-end adresovane.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Router nemení kontrolný súčet paketov IPv4.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na vonkajšiu komunikáciu musia interní hostitelia používať jednu verejnú IPv4 adresu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "NAT nemá žiadne nevýhody.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Ak komunikácia segmentuje dáta na pakety, ktoré sú smerované cez spoločnú sieť o aký typ komunikácie sa jedná ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Paketovo prepínaná",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Okruhovo prepínaná",
+          "Correct": false
+        },
+        {
+          "AnswerText": "NAT komunikácia",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Endless komunikácia",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ak komunikácia musí zriadiť spojenie cez sieť poskytovateľa služieb predtým, ako komunikácia môže začať  o aký typ komunikácie sa jedná ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Okruhovo prepínaná",
+          "Correct": true
+        },
+        {
+          "AnswerText": "NAT komunikácia",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Endless komunikácia",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Paketovo prepínaná",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Na čo slúži VPN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vytvára end-to-end privátne sieťové spojenia.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Segmentuje dáta na pakety, ktoré sú smerované cez spoločnú sieť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zriaďuje spojenie cez sieť poskytovateľa služieb predtým, ako komunikácia môže začať.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje konzistenciu v internej adresácii siete.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké sú výhody VPN ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Kompatibilita a bezpečnosť",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Poskytuje flexibilitu pripojenia na verejnú sieť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šetrí adresy cez application port-level multiplexing.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šetrí súčasnú adresovaciu schému tým, že dovoľuje privatizáciu intranetov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak je VPN ukončená na bránach, prevádzka je šifrovaná len medzi bránami a interní hostovia nevedia, že sa používa VPN, o aký typ ide ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Site – to – site VPN",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Remote - access VPN ",
+          "Correct": false
+        },
+        {
+          "AnswerText": "NAT VPN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Basic VPN",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak je VPN dynamicky vytváraná na zabezpečenie bezpečného pripojenia medzi klientom a zariadením ukončujúcim VPN o aký typ ide ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Remote - access VPN ",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Site – to – site VPN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Basic VPN",
+          "Correct": false
+        },
+        {
+          "AnswerText": "NAT VPN",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži protokol GRE ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Enkapsuluje rôzne protokoly na sieťovej vrstve a multicastuje a broadcastuje prevádzku.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Posiela updaty len po zmene sieti, rýchla konvergencia dát.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Šifruje komunikáciu medzi prístupovým bodom a kontrolérom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na port-based kontrolu prístupu a autentifikáciu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži IPSec ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to IETF štandard definujúci, ako môže byť VPN zabezpečená v rámci IP sietí, ochraňuje a autentifikuje IP pakety medzi zdrojom a cieľom.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Enkapsuluje rôzne protokoly na sieťovej vrstve a multicastuje a broadcastuje prevádzku.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posiela updaty len po zmene sieti, rýchla konvergencia dát.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Posiela updaty len po zmene sieti, rýchla konvergencia dát.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá funkcia protokolu IPSec zaručuje, že údaje prijaté cez sieť VPN neboli počas prenosu zmenené ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Dôvernosť",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Autentifikácia pôvodu",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Diffie-Hellman",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Integrita",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá funkcia protokolu IPSec zabezpečuje výmenu kľúča ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Diffie-Hellman",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Autentifikácia pôvodu",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dôvernosť",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Integrita",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorá funkcia protokolu IPSec zaručuje, kyberkriminálnikom čítať obsah paketov ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Diffie-Hellman",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Autentifikácia pôvodu",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dôvernosť",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Integrita",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

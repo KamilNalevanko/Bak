@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_tests">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.aps.ui.profil.UserFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/nav_tests"
+        android:name="com.example.aps.ui.testy.TestyFragment"
+        android:label="@string/menu_tests"
+        tools:layout="@layout/fragment_testy" />
+
+    <fragment
+        android:id="@+id/nav_teoria"
+        android:name="com.example.aps.ui.teoria.TeoriaFragment"
+        android:label="@string/menu_teory"
+        tools:layout="@layout/fragment_teoria" />
+
+    <fragment
+        android:id="@+id/nav_konfiguracia"
+        android:name="com.example.aps.ui.konfiguracia.KonfiguraciaFragment"
+        android:label="@string/menu_configurations"
+        tools:layout="@layout/fragment_konfiguracie" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.aps.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/win"
+        android:name="com.example.aps.Win"
+        android:label="activity_win"
+        tools:layout="@layout/activity_win" />
+    <activity
+        android:id="@+id/testy"
+        android:name="com.example.aps.Testy"
+        android:label="activity_testy"
+        tools:layout="@layout/activity_testy" />
+
+
+</navigation>

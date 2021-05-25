@@ -1,0 +1,449 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Aké tri základné časti má Ethernetový rámec ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Hlavička, Údaje, Trailer",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Hlavička, Jadro, Trailer",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hlavička, Údaje, Dáta",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Predná časť, Údaje, Trailer",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Akú funkciu má Indikátor začiatku a konca rámca ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Identifikuje začiatok a koniec rámca.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Obsahuje dáta zo začiatku a konca rámca.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Určuje špeciálne služby riadenia toku.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Označuje zdrojové a cieľové uzly.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Akú funkciu plní adresácia ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Označuje zdrojové a cieľové uzly.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Určuje špeciálne služby riadenia toku.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Identifikuje L3 protokol v dátovom poli.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Identifikuje začiatok a koniec rámca.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo sa používa Hexadecimálna sústava ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na reprezentovanie MAC adries IP adries verzie 6.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Určuje špeciálne služby riadenia toku.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Označuje zdrojové a cieľové uzly.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Identifikuje sa pomocou nej L3 protokol v dátovom poli.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako pracuje prístup k posielaniu rámcov Store-and-forward ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Prepínač príjme celý rámec, vypočíta CRC a potom prepínač vyhľadá cieľovú adresu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Rámec je preposielaný ďalej ešte predtým ako je celý prijatý.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Najprv sa uloží prvých 64 bitov rámca a prepošlú sa, potom sa prepošle zbytok.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje najnižšiu latenciu tým, že pakety preposiela ihneď po prečítaní cieľovej adresy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako pracuje prístup k posielaniu rámcov Cut-through ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Rámec je preposielaný ďalej ešte predtým, ako je celý prijatý.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Po odhalení chyby sa rámec zahadzuje a redukuje tak šírku pásma, kt. rámec zaberal.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Prepínač príjme celý rámec, vypočíta CRC a potom prepínač vyhľadá cieľovú adresu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rámce začne preposielať až  keď dostane potvrdenie z vonka.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo nám slúži protokol ARP ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na určenie cieľovej MAC adresy a udržiavanie tabuľky na mapovanie.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Poskytuje služby výmeny dát pre koncové zariadenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na preposielanie rámcov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na smerovanie paketov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Na čo slúži sieťová vrstva L3 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Poskytuje služby, kt. umožňujú koncovým zariadeniam výmenu dát v sieti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zisťovanie MAC adries na základe IPv4 adresy.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Poskytuje služby výmeny dát pre koncové zariadenia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Udržiava tabuľky pre mapovanie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré 4 procesy sa využívajú v sieťovej vrstve ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Adresácia koncových zariadení, Zapuzdrenie, Smerovanie, Odpuzdrenie",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zapuzdrenie, Preposielanie, Smerovanie, Odpuzdrenie",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adresácia koncových zariadení, Smerovanie, Odpuzdrenie, Preposielanie",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovanie, Odpuzdrenie, Preposielanie, šifrovanie",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré tvrdenie je pravdivé pre internet protokol ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Je to nespojový protokol, pred komunikáciou nevytvára spojenie.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zaručuje, že pakety budú prijaté, vie opraviť chyby.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Určuje cieľovú MAC adresu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Udržiava tabuľku pre mapovanie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Z čoho pozostáva pole hlavičky IPv4 paketu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Z polí, ktoré obsahujú binárne čísla identifikujúce rôzne nastavenia IP paketu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Z rámcov, ktoré obsahujú binárne čísla identifikujúce rôzne vlastnosti siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Z vrstiev v ktorých sa nachádzajú hexadecimálne hodnoty nastavení.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Z jednotnej vrstvy, ktorá obsahuje rôzne nastavenia IP paketu vo forme stringu.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Akú funkciu má TTL nachádzajúci sa v hlavičke paketu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Obmedzuje životnosť paketu, určuje cez koľko routerov môže prejsť kým bude zničený.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúži na identifikáciu protokolu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používa sa na určenie priority každého paketu v sieti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Určuje, že paket je IP verzia 4.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Na čo slúži príkaz transport ssh pre prepínač ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zašifruje komunikáciu medzi prepínačom a vzdialenými používateľmi.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Povolí klienta SSH na prepínači.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Neslúži na nič.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nastaví šifrované heslo pre prepínač.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Načo slúži smerovačom cieľová IP adresa ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Aby vedeli kam poslať paket.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nato aby vedeli, ktorý paket môžu zahodiť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na to aby im mohli iné smerovače zaslať informácie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na vygenerovanie vlastnej MAC adresy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Môže zariadenie poslať paket sám sebe ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Áno môže.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nie nemôže.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Môže len v prípade, že má nastavenú rovnakú IP ako jeho sused.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Len v prípade, že je na neho napojene aspoň 1 koncové zariadenie.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akú výhodu poskytuje zjednodušená hlavička IPv6 oproti IPv4 ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Efektívnejšiu manipuláciu s paketmi.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Menšia hlavička.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nemá žiadnu výhodu.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Oveľa menšie zdrojové a cieľové IP adresy.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo obsahuje smerovacia tabuľka smerovača ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Priamo pripojené cesty, vzdialené cesty, predvolenú cestu",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Predvolenú cestu, pripojené vzdialené cesty, susedné cesty",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vzdialené cesty, predvolenú cestu",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Len priamo pripojené cesty",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo predstavujú priamo pripojené cesty v smerovacej tabuľke ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Aktívne rozhrania s konfigurovanými IP adresami na smerovači.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Manuálne nakonfigurované, používajú sa, keď v smerovacej tabuľke neexistujú iné cesty.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Cesty pochádzajúce zo všetkých vzdialených sietí, ktoré sú pripojené k iným smerovačom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Všetky cesty, ktoré sa v tejto tabuľke nachádzajú.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo predstavujú vzdialené cesty v smerovacej tabuľke ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Cesty, ktoré pochádzajú zo vzdialených sietí, ktoré sú pripojené k iným smerovačom.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Manuálne nakonfigurované, používajú sa, keď v smerovacej tabuľke neexistujú iné cesty.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktívne rozhrania s konfigurovanými IP adresami na smerovači.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Všetky cesty, ktoré sa v tejto tabuľke nachádzajú.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo predstavujú predvolené cesty v smerovacej tabuľke ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Manuálne nakonfigurované, používajú sa, keď v smerovacej tabuľke neexistujú iné cesty.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Všetky cesty, ktoré sa v tejto tabuľke nachádzajú.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Cesty pochádzajúce zo vzdialených sietí, ktoré sú pripojené k iným smerovačom.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Aktívne rozhrania s konfigurovanými IP adresami na smerovači",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aké sú výhody statických ciest ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zlepšená bezpečnosť, efektívnosť použitia zdrojov ( používanie menšej šírky pásma a menšie zaťaženie CPU).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Statické cesty neponúkajú žiadne výhody.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Vyššia rýchlosť zasielania informácii.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Používanie väčšej šírky pásma.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorú adresu IPv4 môžeme použiť na otestovanie príkazu ping na loopback interface ?",
+      "AnswerList": [
+        {
+          "AnswerText": "127.0.0.1",
+          "Correct": true
+        },
+        {
+          "AnswerText": "126.0.0.1",
+          "Correct": false
+        },
+        {
+          "AnswerText": "192.168.1.1",
+          "Correct": false
+        },
+        {
+          "AnswerText": "127.0.0.0",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

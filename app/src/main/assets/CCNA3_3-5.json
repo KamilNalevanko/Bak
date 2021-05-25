@@ -1,0 +1,673 @@
+{
+  "QuestionList": [
+    {
+      "QuestionText": "Ako charakterizujeme termín Assets ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Čokoľvek, čo má pre firmu nejakú hodnotu (zariadenia, zdroje, dáta).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zraniteľné miesto v systéme alebo jeho dizajne, ktoré by mohlo byť vystavené hrozbe.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Potenciálne nebezpečenstvo ohrozujúce assety, dáta, funkčnosť siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Mechanizmus zneužívajúci zraniteľné miesto.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Ako charakterizujeme termín Vulnerability ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zraniteľné miesto v systéme alebo jeho dizajne, ktoré by mohlo byť vystavené hrozbe.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Čokoľvek, čo má pre firmu nejakú hodnotu (zariadenia, zdroje, dáta).",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Potenciálne nebezpečenstvo ohrozujúce assety, dáta, funkčnosť siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Mechanizmus zneužívajúci zraniteľné miesto.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Ako charakterizujeme termín Threat ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Potenciálne nebezpečenstvo ohrozujúce assety, dáta, funkčnosť siete.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zraniteľné miesto v systéme alebo jeho dizajne, ktoré by mohlo byť vystavené hrozbe.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Mechanizmus zneužívajúci zraniteľné miesto.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Čokoľvek, čo má pre firmu nejakú hodnotu (zariadenia, zdroje, dáta).",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako charakterizujeme termín Mitigation ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Protiopatrenie, ktoré zníži pravdepodobnosť alebo intenzitu potenciálnej hrozby alebo risku.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zraniteľné miesto v systéme alebo jeho dizajne, ktoré by mohlo byť vystavené hrozbe.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Potenciálne nebezpečenstvo ohrozujúce assety, dáta, funkčnosť siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pravdepodobnosť, že hrozba exploituje zraniteľné miesto s cieľom negatívne ovplyvniť firmu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako charakterizujeme termín Risk ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Zariadenia, ktoré sú cieľové alebo zdrojové ( počítač, mobil, server...)",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré majú verejnú IP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Smerovače a prepínače, ktoré sieťové zariadenia prepájajú",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Zariadenia, ktoré regenerujú komunikačné signály",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký typ útočníka je white hat hacker ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Etický hacker, ktorý hľadá chyby v systéme, aby ich potom reportoval firme a jej vývojári ich mohli opraviť.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Hacker, ktorý bezpochyby robí neetické veci, ale nie je pre svoj prospech alebo škodu spoločnosti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Neetický kriminálnik, útočí na sieť pre svoj zisk alebo iný zákerný dôvod.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hacker, ktorý útočí na bankové účty a kradne z účtov peniaze.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre gray hat hackera ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Hacker, ktorý bezpochyby robí neetické veci, ale nie je pre svoj prospech alebo škodu spoločnosti.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Etický hacker, ktorý hľadá chyby v systéme, aby ich potom reportoval firme a jej vývojári ich mohli opraviť.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Neetický kriminálnik, útočí na sieť pre svoj zisk alebo iný zákerný dôvod.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hacker, ktorý útočí na bankové účty a kradne z účtov peniaze.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký typ útočníka je black hat hacker ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Neetický kriminálnik, útočí na sieť pre svoj zisk alebo iný zákerný dôvod.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Hacker, ktorý útočí na bankové účty a kradne z účtov peniaze.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hacker, ktorý bezpochyby robí neetické veci, ale nie je pre svoj prospech alebo škodu spoločnosti.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Etický hacker, ktorý hľadá chyby v systéme, aby ich potom reportoval firme a jej vývojári ich mohli opraviť.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre kyber kriminálnikov ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Black hat hackeri, buď na voľnej nohe, alebo pracujúci vo veľkých cybercrime firmách.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Teenageri alebo neskúsení hackeri používajúci už existujúce skripty, nástroje, exploity na škodenie.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ktorí kradnú tajomstvá vlády, zhromažďujú informácie a sabotujú siete.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Gray hat hackeri verejne protestujúci proti firmám.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Načo slúži nástroj password crackers ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Nástroj na crackovanie hesiel, prelomenie hesiel.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Úmyselné hacknutie bezdrôtovej siete na objavenie bezpečnostných nedostatkov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na skúmanie a testovanie sily firewallu pomocou falošných paketov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na zachytenie a analyzovanie paketov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Načo slúži nástroj packet sniffers ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na zachytenie a analyzovanie paketov v rámci tradičných Ethernet LAN alebo WLAN.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nástroj na crackovanie hesiel, prelomenie hesiel.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Úmyselné hacknutie bezdrôtovej siete na objavenie bezpečnostných nedostatkov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na skúmanie a testovanie sily firewallu pomocou falošných paketov.",
+          "Correct": false
+        }
+      ]
+    }, {
+      "QuestionText": "Načo slúžia Rootkit detektory ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na kontrolu integrity súborov a priečinkov white hat hackermi, detekujú nainštalované rootkity.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nástroje na crackovanie hesiel, prelomenie hesiel.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na úmyselné hacknutie bezdrôtovej siete na objavenie bezpečnostných nedostatkov.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na skúmanie a testovanie sily firewallu pomocou falošných paketov.",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "QuestionText": "Aké nástroje používajú schémy algoritmov na zašifrovanie dát, aby predišli neoprávnenému prístupu k enkryptovaným dátam ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Nástroje na enkrypciu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nástroje na využitie zraniteľností.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Skenery zraniteľností.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Debuggery.",
+          "Correct": false
+        }
+      ]
+    }
+  ,    {
+      "QuestionText": "Na čo slúžia debuggery ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na získanie zdrojového kódu z binárnych súborov pre black hat  hackerov ale tiež pre white hat hackerov na analýzu malvéru.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na nájdenie akýchkoľvek stôp, dôkazov na PC.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na hľadanie zraniteľností.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na kontrolu integrity súborov a priečinkov white hat hackermi, detekujú nainštalované rootkity.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Čo je to sniffer útok ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Aplikácia alebo zariadenie, ktoré vie čítať, upravovať, výmenu dát v sieti a čítať pakety.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Útočník získa tajný kľúč a má prístup k dôvernej komunikácii bez toho, aby o útoku vedel odosielateľ alebo prijímateľ.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Po odchytení  toku dát ich môže útočník upraviť bez povšimnutia.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Útočník je v pozícii medzi zdrojom a cieľom, monitoruje zachytáva a kontroluje komunikáciu medzi nimi.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak je škodlivý kód skrytý v softvéri a po otvorení softvéru používateľom sa spustí a infikuje PC o aký typ ide ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Vírus",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Trójsky kôň",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Adware",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ransomware",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak program, ktorý vyzerá užitočne a je zadarmo k stiahnutiu, nesie v sebe škodlivý kód, o aký typ škodlivého kódu sa jedná ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Trójsky kôň",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Adware",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Ransomware",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spyware",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aký typ škodlivého kódu zobrazuje, prehráva alebo sťahuje nežiadúce reklamy ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Adware",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Ransomware",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spyware",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Rootkit",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ak sa útočník tvári, že potrebuje osobné alebo finančné informácie aby si overil identitu príjemcu ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Pretexting",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Phishing",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Spam",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Baiting",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktoré z tvrdení je pravdivé pre baiting ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Útočník nechá malvérom infikované USB na verejnom mieste, obeť USB nájde a po jeho otvorení si nechtiac inštaluje malvér.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Útočník sa vám nenápadne pozerá spoza chrbát, kradne heslá.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Útočník sa prehrabáva v koši, hľadá dôverné dokumenty.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Phishing vymyslený a cielený na konkrétnu organizáciu.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý protokol neoveruje, či zdrojová IP naozaj pochádza z daného zdroja, preto útočníci môžu posielať falošné pakety ?",
+      "AnswerList": [
+        {
+          "AnswerText": "IP",
+          "Correct": true
+        },
+        {
+          "AnswerText": "TCP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "UDP",
+          "Correct": false
+        },
+        {
+          "AnswerText": "ARP",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Akú zraniteľnosť obsahuje TCP protokol ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Sieťové aplikácie používajú TCP a UDP porty, útočníci vykonávajú skeny portov na cieľovom zariadení, aby videli, ktoré služby používajú.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Neoveruje, či je zdrojová IP naozaj pochádza z daného zdroja, preto útočníci môžu posielať falošné pakety.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Nemá mechanizmy ako TCP, nie je šifrovaný.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Do siete sa zapojí podvodný DHCP server a poskytuje falošné IP nastavenia validným klientom.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Aká je charakteristika prístupu Defense-in-Depth ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Na bezpečnú komunikáciu cez siete je potrebné zabezpečiť zariadenia, vrátane smerovačov, prepínačov, serverov a hostov (VPN, ASA, IPS).",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Na bezpečnú komunikáciu cez siete je potrebné zabezpečiť len smerovače.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na bezpečnú komunikáciu cez siete je potrebné zabezpečiť len prepínače a servery.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Iba autorizované osoby alebo procesy sa vedia dostať k citlivým informáciám, môže to vyžadovať šifrovacie algoritmy ako AES.",
+          "Correct": false
+        }
+      ]
+    }
+    ,    {
+      "QuestionText": "Aký je rozdiel medzi symetrických a asymetrickým šifrovaním ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Symetrické šifrovanie používa rovnaký kľúč aj na šifrovanie aj na dešifrovanie, asymetrické má rôzne kľúče.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Symetrické šifrovanie používa hashovanie MD5 a asymetrické používa SHA-51.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Asymetrické šifrovanie má krátky kľúč a symetrické dlhý kľúč.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Symetrické šifrovanie používa iný kľúč na šifrovanie a iný na dešifrovanie, asymetrické ma rovnaké kľúče.",
+          "Correct": false
+        }
+      ]
+    }
+    ,    {
+      "QuestionText": "Ktorý algoritmus slúži na vytvorenie spoločného tajného kľúča na komunikáciu po nezabezpečenej sieti bez toho, aby si ho poslali cez danú sieť.",
+      "AnswerList": [
+        {
+          "AnswerText": "Diffie-Hellman",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Floydov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Hermanov",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Dickinsov",
+          "Correct": false
+        }
+      ]
+    }   ,    {
+      "QuestionText": "Na čo slúžia access control list ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Slúžia na filtrovanie sieťovej prevádzky na základe informácií v hlavičke  paketu.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Slúžia len na blokovanie určitých MAC adries.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúžia na filtrovanie sieťovej prevádzky na základe doménového mena.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Na aktivovanie pasívnych portov.",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ktorý access control list filtruje iba na L3 vrstve, používa iba IPv4 adresu zdroja ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Štandardný",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Rozšírený",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Číslovaný",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomenovaný",
+          "Correct": false
+        }
+      ]
+    }
+    ,    {
+      "QuestionText": "Ktorý access control list filtruje len na L3 vrstve a môže aj na L4, používa IPv4 adresu zdroja ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Rozšírený",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Štandardný",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Číslovaný",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Pomenovaný",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako šifrujeme štandardný access control list ?",
+      "AnswerList": [
+        {
+          "AnswerText": "1 – 99",
+          "Correct": true
+        },
+        {
+          "AnswerText": "0 – 99",
+          "Correct": false
+        },
+        {
+          "AnswerText": "100 – 199",
+          "Correct": false
+        },
+        {
+          "AnswerText": "2000- 2699",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako šifrujeme štandardný access control list ?",
+      "AnswerList": [
+        {
+          "AnswerText": "1300 - 1999",
+          "Correct": true
+        },
+        {
+          "AnswerText": "1000 - 1999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "100 – 199",
+          "Correct": false
+        },
+        {
+          "AnswerText": "2000- 2699",
+          "Correct": false
+        }
+      ]
+    },    {
+      "QuestionText": "Ako šifrujeme rozšírený  access control list ?",
+      "AnswerList": [
+        {
+          "AnswerText": "100 – 199",
+          "Correct": true
+        },
+        {
+          "AnswerText": "1000 - 1999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "1300 - 1999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "2000- 2699",
+          "Correct": false
+        }
+      ]
+    }
+    ,    {
+      "QuestionText": "Ako šifrujeme rozšírený  access control list ?",
+      "AnswerList": [
+        {
+          "AnswerText": "2000 - 2699",
+          "Correct": true
+        },
+        {
+          "AnswerText": "1000 - 1999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "1300 - 1999",
+          "Correct": false
+        },
+        {
+          "AnswerText": "1 – 99",
+          "Correct": false
+        }
+      ]
+    } ,    {
+      "QuestionText": "Na čo slúži established pri ACL ?",
+      "AnswerList": [
+        {
+          "AnswerText": "Umožní vnútornej prevádzke z vnútornej siete a dovolí, aby do nej odpoveď vošla.",
+          "Correct": true
+        },
+        {
+          "AnswerText": "Nastavuje sa ním typ komunikácie, ktorý je dovolený.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Slúži na prístup k jednotlivým príkazom daného ACL.",
+          "Correct": false
+        },
+        {
+          "AnswerText": "Neslúži na nič.",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

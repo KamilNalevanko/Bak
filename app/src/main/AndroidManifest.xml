@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_ikona"
+        android:label="Mobilný sprievodca PS"
+        android:roundIcon="@mipmap/ic_ikona"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/SplashTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Ccna3Postup"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_ccna3_postup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ccna2Postup"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_ccna2_postup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ccna1Postup"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_ccna1_postup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profil"
+            android:configChanges="orientation"
+            android:label="Profil"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:configChanges="orientation"
+            android:label="Registrácia"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation"
+            android:label="Prihlásenie"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Win"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestyTemy3"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_testy_temy3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestyTemy2"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_testy_temy2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestyTemy1"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_testy_temy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Testy"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_testy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="Mobilný sprievodca PS"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
